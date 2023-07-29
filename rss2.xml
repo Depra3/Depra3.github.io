@@ -9,8 +9,34 @@
     <atom:link href="https://depra3.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>개발자가 되고 싶습니다.</description>
-    <pubDate>Fri, 28 Jul 2023 12:11:03 GMT</pubDate>
+    <pubDate>Sat, 29 Jul 2023 11:04:14 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>정보처리 산업기사(2023) 2과목 - 2장</title>
+      <link>https://depra3.github.io/2023/07/29/2023/07/2%EA%B3%BC%EB%AA%A9-2%EC%9E%A5/</link>
+      <guid>https://depra3.github.io/2023/07/29/2023/07/2%EA%B3%BC%EB%AA%A9-2%EC%9E%A5/</guid>
+      <pubDate>Sat, 29 Jul 2023 11:00:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;프로그래밍-언어-활용&quot;&gt;&lt;a href=&quot;#프로그래밍-언어-활용&quot; class=&quot;headerlink&quot; title=&quot;프로그래밍 언어 활용&quot;&gt;&lt;/a&gt;프로그래밍 언어 활용&lt;/h1&gt;&lt;h2 id=&quot;2장-프로그램-구현&quot;&gt;&lt;a href=&quot;#2장-프로그램</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="프로그래밍-언어-활용"><a href="#프로그래밍-언어-활용" class="headerlink" title="프로그래밍 언어 활용"></a>프로그래밍 언어 활용</h1><h2 id="2장-프로그램-구현"><a href="#2장-프로그램-구현" class="headerlink" title="2장 프로그램 구현"></a>2장 프로그램 구현</h2><ul><li>웹 서버, 웹 애플리케이션 서버, 개발 언어 선정 기준, 프레임 워크, Spring, 제어의 역흐름, 결합도, 응집도, 재사용, API</li></ul><h1 id="모듈"><a href="#모듈" class="headerlink" title="모듈"></a>모듈</h1><ul><li><strong>개요</strong><ul><li>모듈화를 통해 분리된 시스템의 각 기능들로, 서브루틴, 서브 시스템, 소프트웨어 내의 프로그램, 작업 단위 등과 같은 의미로 사용됨</li><li>모듈의 독립성은 <strong>결합도와 응집도</strong>에 의해 측정</li><li><strong>독립성을 높이려면?</strong>  <strong>결합도 ↓, 응집도  ↑, 모듈의 크기  ↓</strong></li><li><strong>모듈의 응집도는 높고 결합도는 낮은 설계가 이상적</strong><ul><li>모듈의 내부 구조가 각 요소들이 서로 연관되어 있으면서도 모듈 간의 의존성이 적은 구조가 바람직</li></ul></li></ul></li></ul><h1 id=""><a href="#" class="headerlink" title=""></a></h1><ul><li><strong>결합도 (Coupling) [ 자 스 제 외 공 내 ]</strong><ul><li><strong>모듈 간에 상호 의존하는 정도</strong> 또는 <strong>두 모듈 사이의 연관 관계를 의미</strong>한다.</li><li><strong>결합도 ↑ → 독립성 ↓ → 의존성 ↑ → 설계의 품질 ↓</strong></li><li><strong>결합도 약  →  강 ( 결합도가 약할수록 모듈의 독립성 ↑</strong> )<ul><li><strong>자료 결합도 (Data Coupling)</strong><ul><li>다른 모듈 호출하면서 매개 변수나 인수로 데이터를 넘겨주고 처리 결과를 다시 돌려주는 방식</li></ul></li><li><strong>스탬프(검인) 결합도 (Stamp Coupling)</strong><ul><li>두 모듈이 동일한 자료 구조를 조회하는 경우의 결합도</li><li>자료 구조의 어떠한 변화, 즉 포맷이나 구조의 변화는 그것을 조회하는 모든 모듈 및 변화되는 필드를 실제로 조회하지 않는 모듈에 까지도 영향을 미친다.</li></ul></li><li><strong>제어 결합도 (Control Coupling)</strong><ul><li>한 모듈이 다른 모듈의 상세한 처리 절차를 알고 있어 이를 통제하는 경우나 처리 기능이 두 모듈에 분리되어 설계된 경우에 발생</li></ul></li><li><strong>외부 결합도 (Exernal Coupling)</strong><ul><li>어떤 모듈에서 선언한 데이터(변수)를 외부의 다른 모듈에서 참조할 때의 결합도</li></ul></li><li><strong>공통(공유) 결합도 (Common Coupling)</strong><ul><li>공유되는 공통 데이터 영역을 여러 모듈이 사용할 때의 결합도</li></ul></li><li><strong>내용 결합도 (Content Coupling)</strong><ul><li>한 모듈이 다른 모듈의 내부 기능 및 그 내부 자료를 직접 참조하거나 수정할 때의 결합도</li></ul></li></ul></li></ul></li></ul><h1 id="-1"><a href="#-1" class="headerlink" title=""></a></h1><ul><li><strong>응집도 (Cohesion) [ 우 논 시 절 통 순 기 ]</strong><ul><li>응집도는 <strong>정보 은닉 개념을 확장한 것</strong>으로, 명령어나 호출문 등 모듈의 내부 요소들의 서로 관련되어 있는 정도, 즉 <strong>모듈이 독립적인 기능으로 정의되어 있는 정도를 의미</strong>합니다.</li><li><strong>응집도 약 → 강 ( 응집도가 약할 수록 품질 ↓ , 독립성 ↓)</strong></li></ul><h1 id="-2"><a href="#-2" class="headerlink" title=""></a></h1><ul><li><strong>우연적 응집도 (Coincidental Cohesion)</strong><ul><li>모듈 내부의 <strong>각 구성 요소들이 서로 관련 없는 요소로만 구성</strong>된 경우의 응집도</li></ul></li><li><strong>논리적 응집도 (Logical Cohesion)</strong><ul><li><strong>유사한 성격을 갖거나 특정 형태</strong>로 분류되는 처리 요소들로 하나의 모듈이 형성되는 경우의 응집도</li></ul></li><li><strong>시간적 응집도 (Temporal Cohesion)</strong><ul><li><strong>특정 시간에 처리되는 몇 개의 기능</strong>을 모아 하나의 모듈로 작성할 경우의 응집도</li></ul></li><li><strong>절차적 응집도 (Procedural Cohesion)</strong><ul><li>모듈이 다수의 관련 기능을 가질 때 모듈 안의 구성 요소들이 그 기능을 <strong>순차적으로 수행</strong>할 경우의 응집도</li></ul></li><li><strong>교환(통신)적 응집도 (Communication Cohesion)</strong><ul><li><strong>동일한 입력과 출력을 사용하여 서로 다른 기능을 수행</strong>하는 구성 요소들이 모였을 경우의 응집도</li></ul></li><li><strong>순차적 응집도 (Sequential Cohesion)</strong><ul><li>모듈 내 <strong>하나의 활동으로 부터 나온 출력 데이터를 그 다음 활동의 입력 데이터로 사용</strong>할 경우의 응집도</li></ul></li><li><strong>기능적 응집도 (Functional Cohesion)</strong><ul><li>모듈 내부의 <strong>모든 기능 요소들이 단일 문제와 연관되어 수행</strong>될 경우의 응집도</li></ul></li></ul></li></ul><h1 id="-3"><a href="#-3" class="headerlink" title=""></a></h1><ul><li><strong>팬인 (Fan-In) &#x2F; 팬아웃 (Fan-Out)</strong><ul><li><strong>팬인</strong> : 제어하는 모듈의 수 (화살표가 들어오는 개수)</li><li><strong>팬아웃</strong> : 제어되는 모듈의 수 (화살표가 나가는 개수)</li><li><strong>복잡도를 최적화 하려면 팬인 ↑,  팬아웃 ↓</strong></li></ul></li></ul><h1 id="-4"><a href="#-4" class="headerlink" title=""></a></h1><ul><li>소프트웨어 개발 보안의 개요<ul><li>개발 과정에서 발생할 수 있는 보안 취약점을 최소화하여 보안 위협으로부터 안전한 소프트웨어를 개발하기 위한 일련의 보안 활동</li><li><strong>보안 요소 [ 부 인 무 기 가 ]</strong><ul><li>부인 방지, 인증, 무결성<ul><li>오직 인가 된 사용자만 수정</li></ul></li><li>기밀성<ul><li>인가 된 사용자 접근 허용, 노출되면 읽을 수 없음</li></ul></li><li>가용성<ul><li>인가 받은 사용자는 언제라도 사용 가능</li></ul></li></ul></li></ul></li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://Depra3.github.io/categories/%EC%9E%90%EA%B2%A9%EC%A6%9D-%EC%B0%B8%EA%B3%A0-%EC%9E%90%EB%A3%8C/">자격증 참고 자료</category>
+      
+      
+      <category domain="https://Depra3.github.io/tags/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC-%EC%82%B0%EC%97%85%EA%B8%B0%EC%82%AC/">정보처리 산업기사</category>
+      
+      
+      <comments>https://depra3.github.io/2023/07/29/2023/07/2%EA%B3%BC%EB%AA%A9-2%EC%9E%A5/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>정보처리 산업기사(2023) 2과목-1장-②</title>
@@ -595,32 +621,6 @@
       
       
       <comments>https://depra3.github.io/2023/07/03/2023/07/1%EA%B3%BC%EB%AA%A9-2%EC%9E%A5-%E2%91%A2/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>정보처리 산업기사(2023) 1과목-2장-②</title>
-      <link>https://depra3.github.io/2023/07/01/2023/07/1%EA%B3%BC%EB%AA%A9-2%EC%9E%A5-%E2%91%A1/</link>
-      <guid>https://depra3.github.io/2023/07/01/2023/07/1%EA%B3%BC%EB%AA%A9-2%EC%9E%A5-%E2%91%A1/</guid>
-      <pubDate>Sat, 01 Jul 2023 13:00:00 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;정보-시스템-기반-기술&quot;&gt;&lt;a href=&quot;#정보-시스템-기반-기술&quot; class=&quot;headerlink&quot; title=&quot;정보 시스템 기반 기술&quot;&gt;&lt;/a&gt;정보 시스템 기반 기술&lt;/h1&gt;&lt;h2 id=&quot;HIPO-Hierarchy-Input-Proc</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="정보-시스템-기반-기술"><a href="#정보-시스템-기반-기술" class="headerlink" title="정보 시스템 기반 기술"></a>정보 시스템 기반 기술</h1><h2 id="HIPO-Hierarchy-Input-Process-Output"><a href="#HIPO-Hierarchy-Input-Process-Output" class="headerlink" title="HIPO (Hierarchy Input Process Output)"></a>HIPO (Hierarchy Input Process Output)</h2><ul><li><p>시스템의 분석 및 설계나 문서화할 때 사용되는 기법, 시스템 실행 과정인 입력, 처리, 출력의 기능을 나타낸다.</p></li><li><p>하향식 기법</p></li><li><p>기본 시스템 모델은 입력, 처리, 출력으로 구성, 하향식 소프트웨어 개발을 위한 문서화 도구</p></li><li><p>체계적인 문서 관리 기능</p></li><li><p>기호, 도표 등 사용으로 이해가 쉬움</p></li><li><p>변경, 유지 보수 용이</p></li><li><p>가시적 도표 (VTC), 총체적 도표 (OD), 세부적 도표 (DD)</p></li></ul><hr><h2 id="HIPO-Chart의-종류"><a href="#HIPO-Chart의-종류" class="headerlink" title="HIPO Chart의 종류"></a>HIPO Chart의 종류</h2><ul><li><p>가시적 도표(도식 목차)</p><ul><li>시스템 <strong>전체적인 기능과 흐름</strong>을 보여주는 계층(<code>Tree</code>) 구조도</li></ul></li><li><p>총체적 도표(총괄도표, 개요도표)</p><ul><li>프로그램을 구성하는 기능을 기술한 것으로 <strong>입력, 처리, 출력에 대한 전반적인 정보를 제공</strong>하는 도표</li></ul></li><li><p>세부적 도표(상세 도표)</p><ul><li><strong>총체적 도표에 표시된 기능을 구성하는 기본 요소들을 상세히 기술</strong>하는 도표</li></ul></li><li><p>UML [ 사관다 ]</p><ul><li><strong>개발 과정에서 시스템 개발자와 고객 또는 개발자 상호 간의 의사소통을 위한 객체 지향 모델링 언어</strong></li><li>사물 (Things), 관계(Relationship), 다이어그램(Diagram)</li></ul><p>  <img src="/Images/2023/07/1%EA%B3%BC%EB%AA%A9-2%EC%9E%A5-%E2%91%A1/Untitled.png"></p></li></ul><hr><h2 id="다이어그램"><a href="#다이어그램" class="headerlink" title="다이어그램"></a>다이어그램</h2><ul><li><p><strong>사물과 관계를 도형으로 표현한 것</strong></p></li><li><p>여러 관점에서 <strong>시스템을 가시화한 뷰(<code>View</code>)를 제공</strong>함으로써 의사소통에 도움</p></li><li><p><strong>정적 모델링</strong>에서는 주로 <strong>구조적 다이어그램을 사용, 동적 모델링</strong>에서는 주로 <strong>행위 다이어그램을 사용</strong></p></li><li><p>구조 다이어그램</p><ul><li>클래스 다이어그램: 클래스의 구조, 속성, 메서드, 관계 등을 보여줍니다.<ul><li>시스템의 구조를 파악하고 구조상의 문제점을 도출</li></ul></li><li>객체 다이어그램: 객체 간의 관계, 객체의 속성, 상태 등을 보여줍니다.<ul><li>람바우 객체지향 분석 기법에서 객체 모델링에 활용</li></ul></li><li>컴포넌트 다이어그램<ul><li>실제 구현 모듈인 컴포넌트 간의 관계나 컴포넌트 간의 인터페이스를 표현</li><li>구현 단계에서 사용되는 다이어그램</li></ul></li><li>패키지 다이어그램<ul><li>유스케이스나 클래스 등의 모델 요소들을 그룹화한 패키지들의 관계를 표현</li></ul></li><li><strong>복합체 구조 다이어그램</strong><ul><li>클래스나 컴포넌트가 복합 구조를 갖는 경우 그 내부 구조를 표현</li></ul></li><li><strong>배치 다이어그램</strong><ul><li>결과물, 프로세스, 컴포넌트 등 물리적 요소들의 위치를 표현</li><li>노드와 의사소통(통신) 경로로 표현</li><li>구현 단계에서 사용되는 다이어그램</li></ul></li></ul></li><li><p>행위 다이어그램</p><ul><li><p>유즈케이스 다이어그램</p><ul><li>사용자의 요구를 분석하는 것으로 기능 모델링 작업에 사용한다.</li><li>사용자와 사용 사례로 구성되며 사용 사례 간에는 여러 형태의 관계로 이루진다.</li></ul></li><li><p>상태 다이어그램</p><ul><li>하나의 객체가 자신이 속한 클래스의 상태 변화 혹은 다른 객체와의 상호 작용에 따라 상태가 어떻게 변화하는지를 표현</li><li>럼바우 객체지향 분석 기법에서 동적 모델링에 활용</li></ul></li><li><p>시퀀스 다이어그램</p><ul><li><p>상호 작용하는 시스템이나 객체들이 주고받는 메시지를 표현</p></li><li><p>구성 요소</p><p>  <img src="/Images/2023/07/1%EA%B3%BC%EB%AA%A9-2%EC%9E%A5-%E2%91%A1/Untitled%201.png"></p></li></ul></li><li><p>활동 다이어그램</p><ul><li>시스템이 어떤 기능을 수행하는지 객체의 처리 로직이나 조건에 따른 처리의 흐름을 순서에 따라 표현</li></ul></li><li><p><strong>커뮤니케이션 다이어그램</strong></p><ul><li>시퀀스 다이어그램과 같이 동작에 참여하는 객체들이 주고받는 메시지를 표현하는데 메시지뿐만 아니라 객체들간의 연관까지 표현</li></ul></li><li><p><strong>상호작용 개요 다이어그램</strong></p><ul><li>상호작용 다이어그램 간의 제어 흐름을 표현</li></ul></li><li><p><strong>타이밍 다이어그램</strong></p><ul><li>객체 상태 변화와 시간 제약을 명시적으로 표현</li></ul></li></ul></li><li><p>소프트웨어 아키텍처의 설계</p><ul><li><p>소프트웨어의 골격이 되는 기본 구조, 소프트웨어를 구성하는 요소들 간의 관계를 표현하는 시스템의 구조 또는 구조체</p></li><li><p>소프트웨어 개발 시 적용되는 원칙과 지침이며 이해 관계자들의 의사소통 도구로 활용</p></li><li><p>기본 원리로는 모듈화, 추상화, 단계적 분해, 정보은닉이 있음</p><p>  <img src="/Images/2023/07/1%EA%B3%BC%EB%AA%A9-2%EC%9E%A5-%E2%91%A1/Untitled%202.png"></p></li><li><p>설계 단계는 크게 상위 설계와 하위 설계로 구분</p><p>  <img src="/Images/2023/07/1%EA%B3%BC%EB%AA%A9-2%EC%9E%A5-%E2%91%A1/Untitled%203.png"></p></li></ul></li><li><p>협약에 의한 설계</p><ul><li>컴포넌트를 설계할 때 클래스에 대한 여러 가정을 공유할 수 있도록 명세한 것으로 소프트웨어 컴포넌트에 대한 정확한 인터페이스를 명세한다.</li><li>협약에 의한 설계 시 명세에 포함될 조건에는 선행 조건, 결과 조건, 불변 조건이 있다.</li></ul><p>  <img src="/Images/2023/07/1%EA%B3%BC%EB%AA%A9-2%EC%9E%A5-%E2%91%A1/Untitled%204.png"></p></li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://Depra3.github.io/categories/%EC%9E%90%EA%B2%A9%EC%A6%9D-%EC%B0%B8%EA%B3%A0-%EC%9E%90%EB%A3%8C/">자격증 참고 자료</category>
-      
-      
-      <category domain="https://Depra3.github.io/tags/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC-%EC%82%B0%EC%97%85%EA%B8%B0%EC%82%AC/">정보처리 산업기사</category>
-      
-      
-      <comments>https://depra3.github.io/2023/07/01/2023/07/1%EA%B3%BC%EB%AA%A9-2%EC%9E%A5-%E2%91%A1/#disqus_thread</comments>
       
     </item>
     
