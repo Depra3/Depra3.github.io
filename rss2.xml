@@ -9,8 +9,49 @@
     <atom:link href="https://depra3.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>개발자가 되고 싶습니다.</description>
-    <pubDate>Sun, 06 Aug 2023 10:57:20 GMT</pubDate>
+    <pubDate>Mon, 07 Aug 2023 10:49:16 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>JAVA - 접근제어자</title>
+      <link>https://depra3.github.io/2023/08/07/2023/08/JAVA-%EC%A0%91%EA%B7%BC%EC%A0%9C%EC%96%B4%EC%9E%90/</link>
+      <guid>https://depra3.github.io/2023/08/07/2023/08/JAVA-%EC%A0%91%EA%B7%BC%EC%A0%9C%EC%96%B4%EC%9E%90/</guid>
+      <pubDate>Mon, 07 Aug 2023 10:40:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;접근제어자&quot;&gt;&lt;a href=&quot;#접근제어자&quot; class=&quot;headerlink&quot; title=&quot;접근제어자&quot;&gt;&lt;/a&gt;접근제어자&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;클래스 or 클래스 멤버(필드, 메소드 생성자)를 사용할 때, 접근할 수 있는 </description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="접근제어자"><a href="#접근제어자" class="headerlink" title="접근제어자"></a>접근제어자</h1><ul><li><strong>클래스 or 클래스 멤버(필드, 메소드 생성자)를 사용할 때, 접근할 수 있는 범위를 지정</strong>하는 역할</li><li><strong>생략이 가능하며, 생략할 때는 자동적으로 default로 설정</strong>된다.</li></ul><h1 id="특징"><a href="#특징" class="headerlink" title="특징"></a>특징</h1><ul><li><strong>접근을 제어하여 외부에 의한 접근으로부터 데이터를 보호</strong>한다.</li><li><strong>객체지향 프로그래밍</strong>에서 <strong>캡슐화하기 위한 기능으로 사용</strong>된다.</li></ul><h1 id="종류"><a href="#종류" class="headerlink" title="종류"></a>종류</h1><h2 id="public"><a href="#public" class="headerlink" title="public"></a>public</h2><ul><li><strong>접근 제한이 없어 모든 접근이 가능</strong></li><li><strong>클래스, 클래스 멤버 모두 사용</strong></li></ul><h1 id=""><a href="#" class="headerlink" title=""></a></h1><ul><li><p><strong>예시</strong></p>  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Test</span>()&#123;        <span class="comment">// 클래스</span></span><br><span class="line"><span class="keyword">public</span> <span class="type">int</span> a;       <span class="comment">// 클래스 멤버</span></span><br><span class="line"><span class="keyword">public</span> String b;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul><h2 id="protected"><a href="#protected" class="headerlink" title="protected"></a>protected</h2><ul><li><strong>같은 패키지 내의 모든 클래스, 다른 패키지의 자식 클래스에서 접근 가능</strong></li><li><strong>클래스 멤버만 사용</strong></li></ul><h1 id="-1"><a href="#-1" class="headerlink" title=""></a></h1><ul><li><p><strong>예시</strong></p>  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Test</span>()&#123;        <span class="comment">// 클래스</span></span><br><span class="line"><span class="keyword">protected</span> <span class="type">int</span> a;    <span class="comment">// 클래스 멤버</span></span><br><span class="line"><span class="keyword">protected</span> String b;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul><h2 id="default"><a href="#default" class="headerlink" title="default"></a>default</h2><ul><li><strong>같은 패키지 내에서만 접근 가능</strong></li><li><strong>클래스, 클래스 멤버 모두 생략해서 사용</strong></li></ul><h1 id="-2"><a href="#-2" class="headerlink" title=""></a></h1><ul><li><p><strong>예시</strong></p>  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Test</span>()&#123;        <span class="comment">// 클래스</span></span><br><span class="line"><span class="type">int</span> a;       <span class="comment">// 클래스 멤버</span></span><br><span class="line">String b;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul><h2 id="private"><a href="#private" class="headerlink" title="private"></a>private</h2><ul><li><strong>같은 클래스 내에서만 접근 가능</strong></li><li><strong>클래스 멤버만 사용</strong></li></ul><h1 id="-3"><a href="#-3" class="headerlink" title=""></a></h1><ul><li><p><strong>예시</strong></p>  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Test</span>()&#123;        <span class="comment">// 클래스</span></span><br><span class="line"><span class="keyword">private</span> <span class="type">int</span> a;      <span class="comment">// 클래스 멤버</span></span><br><span class="line"><span class="keyword">private</span> String b;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul><h1 id="접근-범위"><a href="#접근-범위" class="headerlink" title="접근 범위"></a>접근 범위</h1><ul><li><strong>접근 범위 : public &gt; protected &gt; default &gt; private</strong></li></ul><p><img src="/Images/2023/08/JAVA-%EC%A0%91%EA%B7%BC%EC%A0%9C%EC%96%B4%EC%9E%90/Untitled.png"></p>]]></content:encoded>
+      
+      
+      <category domain="https://Depra3.github.io/categories/JAVA/">JAVA</category>
+      
+      
+      <category domain="https://Depra3.github.io/tags/%EA%B0%9C%EB%85%90/">개념</category>
+      
+      <category domain="https://Depra3.github.io/tags/%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/">객체 지향 프로그래밍</category>
+      
+      <category domain="https://Depra3.github.io/tags/%EC%A0%91%EA%B7%BC-%EC%A0%9C%EC%96%B4%EC%9E%90/">접근 제어자</category>
+      
+      <category domain="https://Depra3.github.io/tags/%EC%A0%91%EA%B7%BC-%EC%A0%9C%ED%95%9C%EC%9E%90/">접근 제한자</category>
+      
+      <category domain="https://Depra3.github.io/tags/public/">public</category>
+      
+      <category domain="https://Depra3.github.io/tags/protected/">protected</category>
+      
+      <category domain="https://Depra3.github.io/tags/default/">default</category>
+      
+      <category domain="https://Depra3.github.io/tags/private/">private</category>
+      
+      
+      <comments>https://depra3.github.io/2023/08/07/2023/08/JAVA-%EC%A0%91%EA%B7%BC%EC%A0%9C%EC%96%B4%EC%9E%90/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>JAVA - 메소드</title>
@@ -614,32 +655,6 @@
       
       
       <comments>https://depra3.github.io/2023/07/10/2023/07/JAVA-%EC%97%B0%EC%82%B0%EC%9E%90-%E2%91%A2%20%EC%A6%9D%EA%B0%90,%20%EA%B4%80%EA%B3%84(%EB%B9%84%EA%B5%90)/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>정보처리 산업기사(2023) 1과목-3장-②</title>
-      <link>https://depra3.github.io/2023/07/08/2023/07/1%EA%B3%BC%EB%AA%A9-3%EC%9E%A5-%E2%91%A1/</link>
-      <guid>https://depra3.github.io/2023/07/08/2023/07/1%EA%B3%BC%EB%AA%A9-3%EC%9E%A5-%E2%91%A1/</guid>
-      <pubDate>Sat, 08 Jul 2023 13:00:00 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;정보-시스템-기반-기술&quot;&gt;&lt;a href=&quot;#정보-시스템-기반-기술&quot; class=&quot;headerlink&quot; title=&quot;정보 시스템 기반 기술&quot;&gt;&lt;/a&gt;정보 시스템 기반 기술&lt;/h1&gt;&lt;h2 id=&quot;3장-테스트-및-배포&quot;&gt;&lt;a href=&quot;#3장</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="정보-시스템-기반-기술"><a href="#정보-시스템-기반-기술" class="headerlink" title="정보 시스템 기반 기술"></a>정보 시스템 기반 기술</h1><h2 id="3장-테스트-및-배포"><a href="#3장-테스트-및-배포" class="headerlink" title="3장 테스트 및 배포"></a>3장 테스트 및 배포</h2><ul><li>화이트 박스 테스트, 블랙박스 테스트, 단위 테스트, 통합 테스트, 하향식 통합 테스트, 상향식 통합 테스트, 결함, 사용자 인터페이스 (UI), 형상 관리, Git</li></ul><h1 id=""><a href="#" class="headerlink" title=""></a></h1><h3 id="사용자-인터페이스-UI"><a href="#사용자-인터페이스-UI" class="headerlink" title="사용자 인터페이스 (UI)"></a>사용자 인터페이스 (UI)</h3><ul><li>UI는 사용자와 시스템 간의 상호작용이 원활하게 이뤄지도록 도와주는 장치나 소프트웨어를 의미</li></ul><h1 id="-1"><a href="#-1" class="headerlink" title=""></a></h1><ul><li><strong>UI의 특징</strong><ul><li>만족도에 가장 큰 영향을 미치며 변경이 가장 많이 발생</li><li>사용자의 가독성을 높임으로써 작업 시간 단축</li><li>최소한의 노력으로 원하는 결과 나올 수 있도록 한다.</li><li>오류를 줄이고 구체적인 방법 제공</li><li>사용자가 인터페이스를 설계하기 위해서는 소프트웨어 아키텍처를 반드시 숙지</li></ul></li></ul><h1 id="-2"><a href="#-2" class="headerlink" title=""></a></h1><ul><li><strong>사용자 인터페이스의 구분</strong><ul><li><strong>CLI</strong> (Command Line Interface)<ul><li>명령과 출력 테스트 형태로 이뤄지는 인터페이스</li></ul></li><li><strong>GUI</strong> (Graphic User Interface)<ul><li>아이콘이나 메뉴를 마우스로 선택하여 작업 수행하는 그래픽 환경</li></ul></li><li><strong>NUI</strong> (Natural User Interface)<ul><li>사용자의 말이나 행동으로 기기를 조작하는 인터페이스</li></ul></li></ul></li></ul><h1 id="-3"><a href="#-3" class="headerlink" title=""></a></h1><ul><li><strong>사용자 인터페이스의 기본 원칙 [ 직학효연 ]</strong><ul><li>직관성 : 누구나 쉽게 이해</li><li>학습성 : 누구나 쉽게 배우고 익힘</li><li>유효성 : 사용자의 목적을 정확하고 완벽하게 달성</li><li>유연성 : 사용자의 요구 사항을 최대한 수용, 실수 최소화</li></ul></li></ul><h1 id="-4"><a href="#-4" class="headerlink" title=""></a></h1><ul><li><strong>사용자 인터페이스의 설계 지침 [ 사일명가 단오 접결표 ]</strong><ul><li><code>사용자 중심</code>, <code>일관성</code>, <code>명확성</code>, <code>가시성</code>, <code>단순성</code>, <code>오류 발생 해결</code>, <code>접근성</code>, <code>결과 예측 가능성</code>, <code>표준화</code></li></ul></li></ul><h1 id="-5"><a href="#-5" class="headerlink" title=""></a></h1><ul><li><strong>사용자 인터페이스 개발 시스템의 기능</strong><ul><li>사용자의 입력을 검증할 수 있어야함</li><li>에러 처리와 그와 관련된 에러 메세지를 표시할 수 있어야함.</li><li>도움과 프롬프트(prompt)를 제공해야함.</li></ul></li></ul><hr><h3 id="소프트웨어-패키징의-형상-관리-SCM"><a href="#소프트웨어-패키징의-형상-관리-SCM" class="headerlink" title="소프트웨어 패키징의 형상 관리 (SCM)"></a>소프트웨어 패키징의 형상 관리 (SCM)</h3><ul><li>형상관리 (SCM)는 소프트웨어의 개발 과정에서 소프트웨어의 변경 사항을 관리하기 위해 개발된 일련의 활동</li><li>소프트웨어 변경의 원인을 알아내고 제어, 담당자에게 확인하여 통보</li><li>소프트웨어 개발 전단계에 적영되는 활동, 유지보수 단계에서도 수행</li><li>전체 개발 비용을 줄이고, 개발 과정의 여러 방해 요인 최소화 되도록 보증</li><li>프로젝트 계획, 분석서, 설계서, 프로그램 테스트 케이스 포함</li></ul><h1 id="-6"><a href="#-6" class="headerlink" title=""></a></h1><ul><li><strong>형상관리 (SCM)의 중요성</strong><ul><li>지속적인 소프트웨어의 변경 사항을 체계적으로 추적, 통제</li><li>무절제 변경 방지, 버그나 수정 사항을 추적</li><li>가시성이 결핍되므로 진행 정도를 확인하기 위한 기준</li><li>배포본을 효율적으로 관리</li><li>여러 명의 개발자가 동시에 개발 가능</li></ul></li></ul><h1 id="-7"><a href="#-7" class="headerlink" title=""></a></h1><ul><li><strong>형상 관리 기능</strong><ul><li>형상 식별<ul><li>이름과 관리 번호 부여, 계층(Tree) 구조로 구분하여 수정 및 추적 용이</li></ul></li><li>버전 제어<ul><li>특정 절차와 도구(Tool)를 결합</li></ul></li><li>형상 통제 (변경 관리)<ul><li>변경 요구 검토 기준선(Base Line)이 잘 반영되도록 조정</li></ul></li><li>형상 감사<ul><li>무결성 평가를 위해 확인, 검증, 검열 과정을 통해 공식적으로 승인</li></ul></li><li>형상 기록 (상태 보고)<ul><li>형상의 식별, 통제, 감사 작업의 결과를 기록 관리하고 보고서 작성</li></ul></li></ul></li></ul><h1 id="-8"><a href="#-8" class="headerlink" title=""></a></h1><ul><li><strong>소프트웨어의 버전 등록 관련 주요 기능</strong><ul><li>체크 아웃(check-out)<ul><li>프로그램을 수정하기 위해 저장소에서 파일을 받아옴</li><li>소스 파일과 함께 버전 관리를 위한 파일 받아옴</li></ul></li><li>체크 인(check-in)<ul><li>새로운 버전으로 갱신</li></ul></li><li>커밋 (commit)<ul><li>충돌을 알리고 diff도구를 이용해 수정한 후 갱신을 완료</li></ul></li></ul></li></ul><h1 id="-9"><a href="#-9" class="headerlink" title=""></a></h1><ul><li><strong>소프트웨어 버전 관리 도구</strong><ul><li>분산 저장소 방식<ul><li>개발자 별로 원격 저장소의 자료를 자신의 로컬 저장소로 복사하여 작업한 후 변경된 내용을 로컬 저장소에서 우선 반영(버전관리)한 다음 이를 원격 저장소에 반영한다.</li><li>종류에는 Git, GNU arch, DCVS, Bazaar, Mercurial, Team Ware, Bitkeeper, Plastic SCM</li></ul></li><li>Git(깃)<ul><li>분산 버전 관리 시스템으로 2개의 저장소, 지역(로컬) 저장소와 원격 저장소가 존재</li><li>지역 저장소는 개발자들이 실제 개발하는 장소로 버전관리 수행</li><li>원격 저장소는 여러 사람들의 협업을 위해 버전을 공동 관리하는 곳</li><li>원격 저장소나 네트워크에 문제가 있어도 작업 가능</li><li>파일의 변화를 스냅샷으로 저장, 스냅샷은 이전 스냅샷의 포인터를 가지므로 버전의 흐름을 파악함</li><li>Add 스테이징 영역 추가</li><li>Commit 지역 저장소에 저장</li><li>Branch 브랜치 생성</li><li>Checkout 지정한 브랜치로 이동</li></ul></li></ul></li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://Depra3.github.io/categories/%EC%9E%90%EA%B2%A9%EC%A6%9D-%EC%B0%B8%EA%B3%A0-%EC%9E%90%EB%A3%8C/">자격증 참고 자료</category>
-      
-      
-      <category domain="https://Depra3.github.io/tags/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC-%EC%82%B0%EC%97%85%EA%B8%B0%EC%82%AC/">정보처리 산업기사</category>
-      
-      
-      <comments>https://depra3.github.io/2023/07/08/2023/07/1%EA%B3%BC%EB%AA%A9-3%EC%9E%A5-%E2%91%A1/#disqus_thread</comments>
       
     </item>
     
