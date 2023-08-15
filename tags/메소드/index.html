@@ -34,7 +34,7 @@
       window.addEventListener('hashchange', switchTab, false);
   })();
   </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/rss2.xml" title="Depra3's Learning" type="application/rss+xml">
-</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">Depra3&#039;s Site</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="external nofollow noopener noreferrer" title="Download on GitHub" href="https://github.com/Depra3/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/tags">Tags</a></li><li class="is-active"><a href="#" aria-current="page">메소드</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2023-08-10T11:00:00.000Z" title="2023. 8. 10. 오후 8:00:00">2023-08-10</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-08-11T10:59:06.660Z" title="2023. 8. 11. 오후 7:59:06">2023-08-11</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">4 minutes read (About 569 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/08/10/2023/08/JAVA-final-%E2%91%A0/">JAVA - final - ①</a></h1><div class="content"><h1 id="final"><a href="#final" class="headerlink" title="final"></a><strong>final</strong></h1><blockquote>
+</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">Depra3&#039;s Site</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="external nofollow noopener noreferrer" title="Download on GitHub" href="https://github.com/Depra3/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/tags">Tags</a></li><li class="is-active"><a href="#" aria-current="page">메소드</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2023-08-10T11:00:00.000Z" title="2023. 8. 10. 오후 8:00:00">2023-08-10</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-08-15T11:24:07.917Z" title="2023. 8. 15. 오후 8:24:07">2023-08-15</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">4 minutes read (About 585 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/08/10/2023/08/JAVA-final-%E2%91%A0/">JAVA - final - ①</a></h1><div class="content"><h1 id="final"><a href="#final" class="headerlink" title="final"></a><strong>final</strong></h1><blockquote>
 <p><strong>사전적 의미로 ‘결정적인’, ‘마지막의’로 쓰인다.</strong><br><strong>자바에서는 사전적 의미와 같이 초기값이 결정되면 최종 결정이 되어 더 이상 값을 수정할 수 없다.</strong></p>
 </blockquote>
 <h1 id="특징"><a href="#특징" class="headerlink" title="특징"></a><strong>특징</strong></h1><ul>
@@ -48,7 +48,10 @@
 <li><strong>변하지 말아야하는 싶은 변수, 메소드, 클래스가 있다면 final을 사용하여 코딩 시에 예상치 못한 수정이 되거나 하는 상황 없이 마음 편안하게 코딩할 수 있다.</strong></li>
 </ul>
 <hr>
-<h1 id="final-변수"><a href="#final-변수" class="headerlink" title="final 변수"></a><strong>final 변수</strong></h1><ul>
+<h1 id="final-변수"><a href="#final-변수" class="headerlink" title="final 변수"></a><strong>final 변수</strong></h1><blockquote>
+<p><strong>변수를 고정값으로 선언할 때 사용한다.</strong></p>
+</blockquote>
+<h1 id><a href="#" class="headerlink" title></a></h1><ul>
 <li><p><strong>예시</strong></p>
   <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 형식 ①</span></span><br><span class="line"><span class="keyword">final</span> 자료형 변수명;</span><br><span class="line">변수명 = ~~;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 형식 ②</span></span><br><span class="line"><span class="keyword">final</span> 자료형 변수명 = ~~;</span><br></pre></td></tr></table></figure>
 </li>
@@ -70,11 +73,10 @@
 </li>
 </ul>
 <hr>
-<h1 id="final-메소드"><a href="#final-메소드" class="headerlink" title="final 메소드"></a>final 메소드</h1><ul>
-<li><p><strong>final 메소드는 변경을 원치 않는 메소드를 선언할 때 사용</strong>한다.</p>
-</li>
-<li><p><strong>메소드 오버라이딩이 불가능하여 오버라이딩 한다면 오류가 발생</strong>한다.</p>
-</li>
+<h1 id="final-메소드"><a href="#final-메소드" class="headerlink" title="final 메소드"></a>final 메소드</h1><blockquote>
+<p><strong>final 메소드는 변경을 원치 않는 메소드를 선언할 때 사용</strong>한다.<br><strong>메소드 오버라이딩이 불가능하여 오버라이딩 한다면 오류가 발생</strong>한다.</p>
+</blockquote>
+<h1 id="-1"><a href="#-1" class="headerlink" title></a></h1><ul>
 <li><p><strong>예시</strong></p>
   <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">접근제어자 <span class="keyword">final</span> 리턴타입 메소드명()&#123; &#125;</span><br></pre></td></tr></table></figure>
 </li>
@@ -95,7 +97,7 @@
 <p>  <img src="/Images/2023/08/JAVA-final-%E2%91%A0/Untitled%204.png"></p>
 </li>
 </ul>
-</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2023-08-04T12:30:00.000Z" title="2023. 8. 4. 오후 9:30:00">2023-08-04</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-08-08T09:10:22.094Z" title="2023. 8. 8. 오후 6:10:22">2023-08-08</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">4 minutes read (About 649 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/08/04/2023/08/JAVA-%EB%A9%94%EC%86%8C%EB%93%9C/">JAVA - 메소드</a></h1><div class="content"><h1 id="메소드"><a href="#메소드" class="headerlink" title="메소드"></a>메소드</h1><ul>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2023-08-04T12:30:00.000Z" title="2023. 8. 4. 오후 9:30:00">2023-08-04</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-08-15T11:28:33.822Z" title="2023. 8. 15. 오후 8:28:33">2023-08-15</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">4 minutes read (About 653 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/08/04/2023/08/JAVA-%EB%A9%94%EC%86%8C%EB%93%9C/">JAVA - 메소드</a></h1><div class="content"><h1 id="메소드"><a href="#메소드" class="headerlink" title="메소드"></a>메소드</h1><ul>
 <li><strong>멤버 함수 (member function)</strong> 라고도 하며 객체 지향 프로그래밍에서 객체와 관련된 서브 루틴 ( 또는 함수) 이자 클래스가 갖고 있는 기능이다.</li>
 <li><strong>데이터와 멤버 변수에 대한 접근 권한을 갖는다.</strong></li>
 </ul>
@@ -119,9 +121,9 @@
 </li>
 </ul>
 <h1 id><a href="#" class="headerlink" title></a></h1><hr>
-<h1 id="메소드-종류"><a href="#메소드-종류" class="headerlink" title="메소드 종류"></a>메소드 종류</h1><h2 id="입력과-출력이-있는-메소드"><a href="#입력과-출력이-있는-메소드" class="headerlink" title="입력과 출력이 있는 메소드"></a>입력과 출력이 있는 메소드</h2><ul>
-<li><strong>매개 변수 a, b를 입력</strong> 받아 <strong>int형  a+b값을 return</strong>한다.</li>
-</ul>
+<h1 id="메소드-종류"><a href="#메소드-종류" class="headerlink" title="메소드 종류"></a>메소드 종류</h1><h2 id="①-입력과-출력이-있는-메소드"><a href="#①-입력과-출력이-있는-메소드" class="headerlink" title="① 입력과 출력이 있는 메소드"></a>① 입력과 출력이 있는 메소드</h2><blockquote>
+<p><strong>매개 변수 a, b를 입력</strong> 받아 <strong>int형  a+b값을 return</strong>한다.</p>
+</blockquote>
 <h1 id="-1"><a href="#-1" class="headerlink" title></a></h1><ul>
 <li><p><strong>코드</strong></p>
   <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="title function_">sum</span><span class="params">(<span class="type">int</span> a, <span class="type">int</span> b)</span>&#123;</span><br><span class="line">	<span class="keyword">return</span> a + b;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">	<span class="type">Test</span> <span class="variable">test</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Test</span>();</span><br><span class="line">	<span class="type">int</span> <span class="variable">sum</span> <span class="operator">=</span> test.sum(<span class="number">1</span>, <span class="number">2</span>);</span><br><span class="line">	System.out.println(<span class="string">&quot;a와 b의 합 : &quot;</span> + sum);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -131,10 +133,9 @@
 </li>
 </ul>
 <hr>
-<h2 id="입력이-있지만-출력은-없는-메소드"><a href="#입력이-있지만-출력은-없는-메소드" class="headerlink" title="입력이 있지만 출력은 없는 메소드"></a>입력이 있지만 출력은 없는 메소드</h2><ul>
-<li><strong>매개 변수 a, b를 입력</strong> 받지만 <strong>return이 없다.</strong></li>
-<li><strong>출력값이 없어 메소드 자료형을 void로 한다.</strong></li>
-</ul>
+<h2 id="②-입력이-있지만-출력은-없는-메소드"><a href="#②-입력이-있지만-출력은-없는-메소드" class="headerlink" title="② 입력이 있지만 출력은 없는 메소드"></a>② 입력이 있지만 출력은 없는 메소드</h2><blockquote>
+<p><strong>매개 변수 a, b를 입력</strong> 받지만 <strong>return이 없다.</strong><br> <strong>출력값이 없어 메소드 자료형을 void로 한다.</strong></p>
+</blockquote>
 <h1 id="-2"><a href="#-2" class="headerlink" title></a></h1><ul>
 <li><p><strong>코드</strong></p>
   <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">void</span> <span class="title function_">sum</span><span class="params">(<span class="type">int</span> a, <span class="type">int</span> b)</span>&#123;</span><br><span class="line">	System.out.println(<span class="string">&quot;a와 b의 합 : &quot;</span> + (a + b));</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">	<span class="type">Test</span> <span class="variable">test</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Test</span>();</span><br><span class="line">	test.sum(<span class="number">1</span>, <span class="number">2</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -144,9 +145,9 @@
 </li>
 </ul>
 <hr>
-<h2 id="입력이-없지만-출력이-있는-메소드"><a href="#입력이-없지만-출력이-있는-메소드" class="headerlink" title="입력이 없지만 출력이 있는 메소드"></a>입력이 없지만 출력이 있는 메소드</h2><ul>
-<li><strong>입력 받는 매개 변수가 없으나 String형 return값인 world을 출력</strong>한다.</li>
-</ul>
+<h2 id="③-입력이-없지만-출력이-있는-메소드"><a href="#③-입력이-없지만-출력이-있는-메소드" class="headerlink" title="③ 입력이 없지만 출력이 있는 메소드"></a>③ 입력이 없지만 출력이 있는 메소드</h2><blockquote>
+<p><strong>입력 받는 매개 변수가 없으나 String형 return값인 world을 출력</strong>한다.</p>
+</blockquote>
 <h1 id="-3"><a href="#-3" class="headerlink" title></a></h1><ul>
 <li><p><strong>코드</strong></p>
   <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">String <span class="title function_">hello</span><span class="params">()</span>&#123;</span><br><span class="line">	<span class="keyword">return</span> <span class="string">&quot;world&quot;</span>; <span class="comment">// 리턴 값이 문자열이기 때문에 String 리턴 타입을 사용</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">	<span class="type">Test</span> <span class="variable">test</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Test</span>();</span><br><span class="line">	<span class="type">String</span> <span class="variable">re</span> <span class="operator">=</span> test.hello();</span><br><span class="line">	System.out.println(re);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -156,10 +157,9 @@
 </li>
 </ul>
 <hr>
-<h2 id="입력과-출력이-없는-메소드"><a href="#입력과-출력이-없는-메소드" class="headerlink" title="입력과 출력이 없는 메소드"></a>입력과 출력이 없는 메소드</h2><ul>
-<li><strong>입력 값과 출력값이 없다.</strong></li>
-<li><strong>출력값이 없어 메소드 자료형을 void로 한다.</strong></li>
-</ul>
+<h2 id="④-입력과-출력이-없는-메소드"><a href="#④-입력과-출력이-없는-메소드" class="headerlink" title="④ 입력과 출력이 없는 메소드"></a>④ 입력과 출력이 없는 메소드</h2><blockquote>
+<p><strong>입력 값과 출력값이 없다.</strong><br><strong>출력값이 없어 메소드 자료형을 void로 한다.</strong></p>
+</blockquote>
 <h1 id="-4"><a href="#-4" class="headerlink" title></a></h1><ul>
 <li><p><strong>코드</strong></p>
   <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">void</span> <span class="title function_">hello</span><span class="params">()</span>&#123;</span><br><span class="line">	System.out.println(<span class="string">&quot;world&quot;</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">	<span class="type">Test</span> <span class="variable">test</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Test</span>();</span><br><span class="line">	test.hello();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>

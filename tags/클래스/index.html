@@ -34,7 +34,7 @@
       window.addEventListener('hashchange', switchTab, false);
   })();
   </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/rss2.xml" title="Depra3's Learning" type="application/rss+xml">
-</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">Depra3&#039;s Site</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="external nofollow noopener noreferrer" title="Download on GitHub" href="https://github.com/Depra3/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/tags">Tags</a></li><li class="is-active"><a href="#" aria-current="page">클래스</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2023-08-11T11:00:00.000Z" title="2023. 8. 11. 오후 8:00:00">2023-08-11</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-08-12T11:18:42.653Z" title="2023. 8. 12. 오후 8:18:42">2023-08-12</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">6 minutes read (About 902 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/08/11/2023/08/JAVA-final-%E2%91%A1/">JAVA - final - ②</a></h1><div class="content"><h1 id="final"><a href="#final" class="headerlink" title="final"></a><strong>final</strong></h1><blockquote>
+</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">Depra3&#039;s Site</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="external nofollow noopener noreferrer" title="Download on GitHub" href="https://github.com/Depra3/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/tags">Tags</a></li><li class="is-active"><a href="#" aria-current="page">클래스</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2023-08-11T11:00:00.000Z" title="2023. 8. 11. 오후 8:00:00">2023-08-11</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-08-15T11:21:49.021Z" title="2023. 8. 15. 오후 8:21:49">2023-08-15</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">6 minutes read (About 902 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/08/11/2023/08/JAVA-final-%E2%91%A1/">JAVA - final - ②</a></h1><div class="content"><h1 id="final"><a href="#final" class="headerlink" title="final"></a><strong>final</strong></h1><blockquote>
 <p><strong>사전적 의미로 ‘결정적인’, ‘마지막의’로 쓰인다.<br>자바에서는 사전적 의미와 같이 초기값이 결정되면 최종 결정이 되어 더 이상 값을 수정할 수 없다.</strong></p>
 </blockquote>
 <h1 id="특징"><a href="#특징" class="headerlink" title="특징"></a><strong>특징</strong></h1><ul>
@@ -49,10 +49,9 @@
 <li><strong>변하지 말아야하는 싶은 변수, 메소드, 클래스, 인자값이 있다면 final을 사용하여 코딩 시에 예상치 못한 수정이 되거나 하는 상황 없이 마음 편안하게 코딩할 수 있다</strong></li>
 </ul>
 <hr>
-<h1 id="final-클래스"><a href="#final-클래스" class="headerlink" title="final 클래스"></a>final 클래스</h1><ul>
-<li><strong>final 클래스는 상속할 수 없는 클래스</strong>다.</li>
-<li><strong>Setter를 이용해 클래스 필드를 재할당</strong> 할 수 있다.</li>
-</ul>
+<h1 id="final-클래스"><a href="#final-클래스" class="headerlink" title="final 클래스"></a>final 클래스</h1><blockquote>
+<p><strong>final 클래스는 상속할 수 없는 클래스</strong>다.<br><strong>Setter를 이용해 클래스 필드를 재할당</strong> 할 수 있다.</p>
+</blockquote>
 <h1 id><a href="#" class="headerlink" title></a></h1><ul>
 <li><p><strong>예시</strong></p>
   <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">접근제어자 <span class="keyword">final</span> class 클래스명 &#123; &#125;</span><br></pre></td></tr></table></figure></li>
@@ -85,9 +84,9 @@
 </li>
 </ul>
 <hr>
-<h1 id="final-객체"><a href="#final-객체" class="headerlink" title="final 객체"></a>final 객체</h1><ul>
-<li><strong>객체 생성에 사용하면 해당 객체는 같은 타입으로 재생성이 불가능하다.<br>그러나 객체 내부 변수는 수정이 가능하다.</strong></li>
-</ul>
+<h1 id="final-객체"><a href="#final-객체" class="headerlink" title="final 객체"></a>final 객체</h1><blockquote>
+<p><strong>객체 생성에 사용하면 해당 객체는 같은 타입으로 재생성이 불가능하다.<br>그러나 객체 내부 변수는 수정이 가능하다.</strong></p>
+</blockquote>
 <h1 id="-5"><a href="#-5" class="headerlink" title></a></h1><ul>
 <li><p><strong>예시</strong></p>
   <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">final</span> 클래스명 객체명 = <span class="keyword">new</span> 클래스명(); </span><br></pre></td></tr></table></figure></li>
@@ -120,9 +119,9 @@
 </li>
 </ul>
 <hr>
-<h1 id="메소드-인자값에-final-사용"><a href="#메소드-인자값에-final-사용" class="headerlink" title="메소드 인자값에 final 사용"></a>메소드 인자값에 final 사용</h1><ul>
-<li><strong>인자값에 final을 사용하면 final 인자값의 수정은 불가능</strong>하다.</li>
-</ul>
+<h1 id="메소드-인자값에-final-사용"><a href="#메소드-인자값에-final-사용" class="headerlink" title="메소드 인자값에 final 사용"></a>메소드 인자값에 final 사용</h1><blockquote>
+<p><strong>인자값에 final을 사용하면 final 인자값의 수정은 불가능</strong>하다.</p>
+</blockquote>
 <h1 id="-10"><a href="#-10" class="headerlink" title></a></h1><ul>
 <li><p><strong>예시</strong></p>
   <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">접근제어자 리턴타입 메소드명(<span class="keyword">final</span> 자료형 변수명)&#123; &#125;</span><br></pre></td></tr></table></figure></li>
