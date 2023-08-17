@@ -9,8 +9,32 @@
 
 
     <url>
+        <loc>https://Depra3.github.io/2022/12/27/2022/12/20/JAVA_EE_%26_Apche_Tomcat_Install/</loc>
+        <lastmod>2023-08-17T10:33:04.125Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://Depra3.github.io/2022/12/19/2022/12/20/JDK_Install/</loc>
+        <lastmod>2023-08-17T10:14:43.245Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://Depra3.github.io/2022/12/19/2022/12/20/JAVA_SE_Install/</loc>
+        <lastmod>2023-08-17T10:06:50.052Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://Depra3.github.io/2023/08/16/2023/08/JAVA-GetterSetter%EB%A9%94%EC%86%8C%EB%93%9C/</loc>
-        <lastmod>2023-08-16T10:09:05.937Z</lastmod>
+        <lastmod>2023-08-17T10:03:51.433Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -315,30 +339,6 @@
     <url>
         <loc>https://Depra3.github.io/2023/06/21/2023/06/Git%26Github/</loc>
         <lastmod>2023-06-21T12:32:29.260Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://Depra3.github.io/2022/12/27/2022/12/20/JAVA_EE_%26_Apche_Tomcat_Install/</loc>
-        <lastmod>2023-06-21T12:29:39.642Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://Depra3.github.io/2022/12/19/2022/12/20/JAVA_SE_Install/</loc>
-        <lastmod>2023-06-21T12:29:39.019Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://Depra3.github.io/2022/12/19/2022/12/20/JDK_Install/</loc>
-        <lastmod>2023-06-21T12:29:38.507Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
