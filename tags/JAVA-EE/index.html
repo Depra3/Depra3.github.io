@@ -34,75 +34,100 @@
       window.addEventListener('hashchange', switchTab, false);
   })();
   </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/rss2.xml" title="Depra3's Learning" type="application/rss+xml">
-</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">Depra3&#039;s Site</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="external nofollow noopener noreferrer" title="Download on GitHub" href="https://github.com/Depra3/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/tags">Tags</a></li><li class="is-active"><a href="#" aria-current="page">JAVA EE</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2023-01-07T09:00:00.000Z" title="2023. 1. 7. 오후 6:00:00">2023-01-07</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-06-21T12:29:36.120Z" title="2023. 6. 21. 오후 9:29:36">2023-06-21</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">4 minutes read (About 556 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/01/07/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/">JAVA Spring Boot(STS - Spring Tools 4) 설치</a></h1><div class="content"><h1 id="JAVA-Spring-Boot를-사용하기-위한-준비"><a href="#JAVA-Spring-Boot를-사용하기-위한-준비" class="headerlink" title="JAVA Spring Boot를 사용하기 위한 준비"></a>JAVA Spring Boot를 사용하기 위한 준비</h1><ul>
-<li><p><strong>Eclipse EE version은 2022-09(4.25.0)</strong></p>
-</li>
-<li><p><strong>설치 방법 링크</strong></p>
-<p>  <a href="https://depra3.github.io/2022/12/27/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/">JAVA EE &amp; Apche Tomcat 설치</a></p>
-</li>
+</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">Depra3&#039;s Site</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="external nofollow noopener noreferrer" title="Download on GitHub" href="https://github.com/Depra3/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/tags">Tags</a></li><li class="is-active"><a href="#" aria-current="page">JAVA EE</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2023-01-07T09:00:00.000Z" title="2023. 1. 7. 오후 6:00:00">2023-01-07</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-08-19T10:16:13.806Z" title="2023. 8. 19. 오후 7:16:13">2023-08-19</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">3 minutes read (About 517 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/01/07/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/">JAVA Spring Boot(STS - Spring Tools 4) 설치</a></h1><div class="content"><h1 id="JAVA-Spring-Boot를-사용하기-위한-준비"><a href="#JAVA-Spring-Boot를-사용하기-위한-준비" class="headerlink" title="JAVA Spring Boot를 사용하기 위한 준비"></a>JAVA Spring Boot를 사용하기 위한 준비</h1><ul>
+<li><strong>Eclipse EE version은 2022-09(4.25.0)</strong></li>
+<li><strong>설치 방법 링크 : <a href="https://depra3.github.io/2022/12/27/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/">JAVA EE &amp; Apche Tomcat 설치</a></strong></li>
+</ul>
+<h1 id><a href="#" class="headerlink" title></a></h1><ul>
 <li><p><strong>Help</strong> → <strong>Eclipse Marketplace…</strong> 클릭 (잠시 동안 로딩이 있을 수 있습니다.)</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled.png"></p>
 </li>
+</ul>
+<h1 id="-1"><a href="#-1" class="headerlink" title></a></h1><ul>
 <li><p><strong>sts</strong> 검색 → 최신 버전(현재는 Spring Tools 4가 최신) 찾기 → <strong>Install</strong> 클릭</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%201.png"></p>
 </li>
+</ul>
+<h1 id="-2"><a href="#-2" class="headerlink" title></a></h1><ul>
 <li><p><strong>Confirm</strong> 클릭</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%202.png"></p>
 </li>
+</ul>
+<h1 id="-3"><a href="#-3" class="headerlink" title></a></h1><ul>
 <li><p>약 2~3분 정도 소요됩니다.</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%203.png"></p>
 </li>
+</ul>
+<h1 id="-4"><a href="#-4" class="headerlink" title></a></h1><ul>
 <li><p><strong>①</strong> <strong>동그라미</strong> 체크 → <strong>② Finish</strong> 클릭</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%204.png"></p>
 </li>
-<li><p>붉은 박스 클릭하면 현재 진행도가 상세하게 나옵니다.</p>
-</li>
-<li><p>설치에 시간이 걸리니 커피 한 잔을 타고 와서 지켜봅시다.(약 4분 정도 소요됨)</p>
+</ul>
+<h1 id="-5"><a href="#-5" class="headerlink" title></a></h1><ul>
+<li><p><strong>붉은 박스 클릭하면 현재 진행도가 상세</strong>하게 나옵니다.</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%205.png"></p>
 </li>
-<li><p>설치 중간에 갑자기 Trust 창이 뜹니다.</p>
+</ul>
+<h1 id="-6"><a href="#-6" class="headerlink" title></a></h1><ul>
+<li><p>설치 중간에 갑자기 <strong>Trust 창</strong>이 뜹니다.</p>
 </li>
 <li><p><strong>① Select All</strong> 클릭 → <strong>② Trust Selected</strong> 클릭</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%206.png"></p>
 </li>
+</ul>
+<h1 id="-7"><a href="#-7" class="headerlink" title></a></h1><ul>
 <li><p><strong>Restart Now</strong> 클릭</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%207.png"></p>
 </li>
-<li><p>Eclipse가 다시 시작되니 한 잔 타 온 커피를 마시면서 기다려봅시다.</p>
+</ul>
+<h1 id="-8"><a href="#-8" class="headerlink" title></a></h1><ul>
+<li><p>Eclipse가 다시 시작되니 잠시 기다려봅시다.</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%208.png"></p>
 </li>
 </ul>
+<hr>
 <h2 id="☆-TEST-☆"><a href="#☆-TEST-☆" class="headerlink" title="☆ TEST ☆"></a>☆ TEST ☆</h2><ul>
 <li><p><strong>File</strong> 클릭 → <strong>New</strong>에 마우스 커서 놓기 → <strong>Other..</strong> 클릭</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%209.png"></p>
 </li>
+</ul>
+<h1 id="-9"><a href="#-9" class="headerlink" title></a></h1><ul>
 <li><p><strong>① spring</strong> 입력 (자동 검색) → <strong>② Spring Starter Project</strong> 클릭 → <strong>③ Next</strong> 클릭</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%2010.png"></p>
 </li>
+</ul>
+<h1 id="-10"><a href="#-10" class="headerlink" title></a></h1><ul>
 <li><p><strong>①</strong> Project 이름 &#x2F; <strong>②</strong> Gradle - Groovy로 설정 &#x2F; <strong>③</strong> 클릭하여 8로 설정  &#x2F; <strong>④</strong> 클릭하여 War로 설정</p>
 <p>  (<strong>글쓴이가 배운 설정입니다.</strong>)</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%2011.png"></p>
 </li>
+</ul>
+<h1 id="-11"><a href="#-11" class="headerlink" title></a></h1><ul>
 <li><p>설정 후 확인</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%2012.png"></p>
 </li>
+</ul>
+<h1 id="-12"><a href="#-12" class="headerlink" title></a></h1><ul>
 <li><p><strong>① spring web</strong> 입력 → <strong>②</strong> 네모박스 체크 → <strong>③</strong> 선택되었는지 확인 → <strong>④ Finish</strong> 클릭</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%2013.png"></p>
 </li>
+</ul>
+<h1 id="-13"><a href="#-13" class="headerlink" title></a></h1><ul>
 <li><p>그림과 같은 구조로 생성되는 것을 확인할 수 있습니다.</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%2014.png"></p>
 </li>
-<li><p>간혹 유효성 관련한 창이 뜨기도 하는데 검색해보니 검색을 잘 못하는 건지 찾기가 힘듭니다.</p>
-<p>  아무거나 클릭해도 무방할 듯 싶습니다.</p>
+</ul>
+<h1 id="-14"><a href="#-14" class="headerlink" title></a></h1><ul>
+<li><p>간혹 유효성 관련한 창이 뜨기도 하는데 검색해보니 검색을 잘 못하는 건지 찾기가 힘듭니다.<br>아무거나 클릭해도 무방할 듯 싶습니다.</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%2015.png"></p>
 </li>
 </ul>
-</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2022-12-27T09:00:00.000Z" title="2022. 12. 27. 오후 6:00:00">2022-12-27</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-08-17T10:33:04.125Z" title="2023. 8. 17. 오후 7:33:04">2023-08-17</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">7 minutes read (About 1070 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2022/12/27/2022/12/20/JAVA_EE_&amp;_Apche_Tomcat_Install/">JAVA EE &amp; Apche Tomcat 설치</a></h1><div class="content"><h1 id="JAVA-EE를-사용하기-위한-Eclipse-다운로드"><a href="#JAVA-EE를-사용하기-위한-Eclipse-다운로드" class="headerlink" title="JAVA EE를 사용하기 위한 Eclipse 다운로드"></a>JAVA EE를 사용하기 위한 Eclipse 다운로드</h1><h2 id="★-다운로드-링크-★-Eclipse-Download"><a href="#★-다운로드-링크-★-Eclipse-Download" class="headerlink" title="★ 다운로드 링크 ★ : Eclipse Download"></a>★ 다운로드 링크 ★ : <strong><a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.eclipse.org/downloads/packages/">Eclipse Download</a></strong></h2><ul>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2022-12-27T09:00:00.000Z" title="2022. 12. 27. 오후 6:00:00">2022-12-27</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-08-19T10:12:28.861Z" title="2023. 8. 19. 오후 7:12:28">2023-08-19</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">7 minutes read (About 1070 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2022/12/27/2022/12/20/JAVA_EE_&amp;_Apche_Tomcat_Install/">JAVA EE &amp; Apche Tomcat 설치</a></h1><div class="content"><h1 id="JAVA-EE를-사용하기-위한-Eclipse-다운로드"><a href="#JAVA-EE를-사용하기-위한-Eclipse-다운로드" class="headerlink" title="JAVA EE를 사용하기 위한 Eclipse 다운로드"></a>JAVA EE를 사용하기 위한 Eclipse 다운로드</h1><h2 id="★-다운로드-링크-★"><a href="#★-다운로드-링크-★" class="headerlink" title="★ 다운로드 링크 ★"></a>★ 다운로드 링크 ★</h2><h2 id="Eclipse-Download"><a href="#Eclipse-Download" class="headerlink" title="Eclipse Download"></a><strong><a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.eclipse.org/downloads/packages/">Eclipse Download</a></strong></h2><h1 id><a href="#" class="headerlink" title></a></h1><ul>
 <li><p>아래의 그림에서 <strong>이용자의 운영체제에 맞게 선택</strong>하여 <strong>다운로드</strong></p>
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled.png"></p>
 </li>
 </ul>
-<h1 id><a href="#" class="headerlink" title></a></h1><ul>
+<h1 id="-1"><a href="#-1" class="headerlink" title></a></h1><ul>
 <li><p><strong>어느 것을 선택하든 같은 것을 다운</strong> 받기 때문에 신경 쓰지 않고 다운로드</p>
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%201.png"></p>
 </li>
@@ -114,22 +139,22 @@
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%202.png"></p>
 </li>
 </ul>
-<h1 id="-1"><a href="#-1" class="headerlink" title></a></h1><ul>
+<h1 id="-2"><a href="#-2" class="headerlink" title></a></h1><ul>
 <li><p><strong>zip</strong> <strong>클릭</strong>해서 다운로드</p>
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%203.png"></p>
 </li>
 </ul>
-<h1 id="-2"><a href="#-2" class="headerlink" title></a></h1><ul>
+<h1 id="-3"><a href="#-3" class="headerlink" title></a></h1><ul>
 <li><p><strong>다운로드 한 폴더에 그대로 압축 풀기</strong></p>
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%204.png"></p>
 </li>
 </ul>
-<h1 id="-3"><a href="#-3" class="headerlink" title></a></h1><ul>
+<h1 id="-4"><a href="#-4" class="headerlink" title></a></h1><ul>
 <li><p><strong>eclipse 실행</strong></p>
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%205.png"></p>
 </li>
 </ul>
-<h1 id="-4"><a href="#-4" class="headerlink" title></a></h1><ul>
+<h1 id="-5"><a href="#-5" class="headerlink" title></a></h1><ul>
 <li><p>원하는 경로로 설정하고 싶으면 <strong>①</strong> <strong>Browse</strong> 클릭</p>
 </li>
 <li><p>기본 경로로 만들어서 사용한다면 그대로 <strong>② Launch</strong> 클릭</p>
@@ -141,14 +166,14 @@
 </ul>
 </li>
 </ul>
-<h1 id="-5"><a href="#-5" class="headerlink" title></a></h1><ul>
+<h1 id="-6"><a href="#-6" class="headerlink" title></a></h1><ul>
 <li><p>경로가 바뀐 것을 볼 수 있다.</p>
 </li>
 <li><p><strong>Launch</strong> 클릭하여 <strong>Eclipse 실행</strong></p>
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%208.png"></p>
 </li>
 </ul>
-<h1 id="-6"><a href="#-6" class="headerlink" title></a></h1><ul>
+<h1 id="-7"><a href="#-7" class="headerlink" title></a></h1><ul>
 <li><p><strong>아래 그림과 같이 나왔다가 실행</strong>이 된다.</p>
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%209.png"></p>
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%2010.png"></p>
@@ -166,32 +191,32 @@
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%2011.png"></p>
 </li>
 </ul>
-<h1 id="-7"><a href="#-7" class="headerlink" title></a></h1><ul>
+<h1 id="-8"><a href="#-8" class="headerlink" title></a></h1><ul>
 <li><p><strong>① Web</strong> 좌측의 ‘ <strong>&gt;</strong> ‘ 클릭 → <strong>② CSS Files 좌측</strong>의 ‘ <strong>&gt;</strong> ‘ 클릭 → <strong>③</strong> <strong>Korean, EUC-KR</strong><br>클릭 → <strong>④ ISO 10646&#x2F;Unicode(UTF-8)</strong> 을 찾아 클릭 ( 스크롤을 맨 위에 올리면 있음 )</p>
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%2012.png"></p>
 </li>
 </ul>
-<h1 id="-8"><a href="#-8" class="headerlink" title></a></h1><ul>
+<h1 id="-9"><a href="#-9" class="headerlink" title></a></h1><ul>
 <li><p><strong>①</strong> <strong>Apply</strong> 클릭하여 적용 <strong>→ ②</strong> <strong>HTML Files</strong> 클릭</p>
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%2013.png"></p>
 </li>
 </ul>
-<h1 id="-9"><a href="#-9" class="headerlink" title></a></h1><ul>
+<h1 id="-10"><a href="#-10" class="headerlink" title></a></h1><ul>
 <li><p><strong>①</strong> <strong>Korean, EUC-KR</strong> 클릭 → <strong>②ISO 10646&#x2F;Unicode(UTF-8)</strong> 을 찾아 클릭<br>( 위와 위치 동일함 ) → <strong>③ Apply</strong> 클릭하여 적용 → <strong>④ JSP Files</strong> 클릭</p>
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%2014.png"></p>
 </li>
 </ul>
-<h1 id="-10"><a href="#-10" class="headerlink" title></a></h1><ul>
+<h1 id="-11"><a href="#-11" class="headerlink" title></a></h1><ul>
 <li><p><strong>① Korean, EUC-KR</strong> 클릭 <strong>→ ②ISO 10646&#x2F;Unicode(UTF-8)</strong> 을 찾아 클릭<br>( 위와 위치 동일함 ) → <strong>③ Apply</strong> 클릭</p>
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%2015.png"></p>
 </li>
 </ul>
-<h1 id="-11"><a href="#-11" class="headerlink" title></a></h1><ul>
+<h1 id="-12"><a href="#-12" class="headerlink" title></a></h1><ul>
 <li><p><strong>① Server</strong> 좌측의 ‘ <strong>&gt;</strong> ’ 클릭 → <strong>② Runtime Environments</strong> 클릭 → <strong>③ Add..</strong> 클릭</p>
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%2016.png"></p>
 </li>
 </ul>
-<h1 id="-12"><a href="#-12" class="headerlink" title></a></h1><ul>
+<h1 id="-13"><a href="#-13" class="headerlink" title></a></h1><ul>
 <li><p><strong>① Apache 좌측</strong>의 ‘ <strong>&gt;</strong> ’ 클릭 → <strong>② 자신이 받은 Apache Tomcat 버전에 맞게 클릭</strong> → <strong>③</strong> ‘ <strong>②</strong> ’<strong>를 진행하면 비활성화 되어 있는 Next 버튼이 활성화 되니 Next</strong> 클릭</p>
 <ul>
 <li>글쓴이는 Apache Tomcat 9를 다운 받았으니 Apache Tomcat v9.0 선택</li>
@@ -199,12 +224,12 @@
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%2017.png"></p>
 </li>
 </ul>
-<h1 id="-13"><a href="#-13" class="headerlink" title></a></h1><ul>
+<h1 id="-14"><a href="#-14" class="headerlink" title></a></h1><ul>
 <li><p><strong>① Browse..</strong> 클릭 → 폴더 선택 창이 나옴 → <strong>②</strong> 압축 해제한 <strong>Apache Tomcat 폴더</strong> 클릭 → <strong>③ 폴더 선택</strong> 클릭 → <strong>④</strong> 활성화 된 <strong>Finish</strong> 클릭</p>
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%2018.png"></p>
 </li>
 </ul>
-<h1 id="-14"><a href="#-14" class="headerlink" title></a></h1><ul>
+<h1 id="-15"><a href="#-15" class="headerlink" title></a></h1><ul>
 <li><p>추가 되었는지 확인 후 <strong>① Apply and Close</strong> 클릭</p>
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%2019.png"></p>
 </li>
@@ -215,47 +240,47 @@
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%2020.png"></p>
 </li>
 </ul>
-<h1 id="-15"><a href="#-15" class="headerlink" title></a></h1><ul>
+<h1 id="-16"><a href="#-16" class="headerlink" title></a></h1><ul>
 <li><p><strong>① webapp</strong>에서 마우스 <strong>오른쪽</strong> 클릭 → <strong>② New</strong>에 마우스 커서를 놓기 →<br><strong>HTML File</strong>이 있다면 클릭 &#x2F; 없다면 <strong>Other..</strong> 클릭</p>
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%2021.png"></p>
 </li>
 </ul>
-<h1 id="-16"><a href="#-16" class="headerlink" title></a></h1><h3 id="※-Other-클릭-후"><a href="#※-Other-클릭-후" class="headerlink" title="※ Other.. 클릭 후"></a><strong>※</strong> <strong>Other..</strong> 클릭 후</h3><ul>
+<h1 id="-17"><a href="#-17" class="headerlink" title></a></h1><h3 id="※-Other-클릭-후"><a href="#※-Other-클릭-후" class="headerlink" title="※ Other.. 클릭 후"></a><strong>※</strong> <strong>Other..</strong> 클릭 후</h3><ul>
 <li><p><strong>① html</strong> 입력하면 <strong>② HTML File</strong> 이 자동으로 나옴 → <strong>③ Next</strong> 클릭</p>
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%2022.png"></p>
 </li>
 </ul>
-<h1 id="-17"><a href="#-17" class="headerlink" title></a></h1><ul>
+<h1 id="-18"><a href="#-18" class="headerlink" title></a></h1><ul>
 <li><p><strong>① Test.html</strong> 입력 → <strong>② Next</strong> 클릭</p>
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%2023.png"></p>
 </li>
 </ul>
-<h1 id="-18"><a href="#-18" class="headerlink" title></a></h1><ul>
+<h1 id="-19"><a href="#-19" class="headerlink" title></a></h1><ul>
 <li><p><strong>Finish</strong> 클릭</p>
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%2024.png"></p>
 </li>
 </ul>
-<h1 id="-19"><a href="#-19" class="headerlink" title></a></h1><ul>
+<h1 id="-20"><a href="#-20" class="headerlink" title></a></h1><ul>
 <li><p>예시로 “연동 확인 !!” 입력</p>
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%2025.png"></p>
 </li>
 </ul>
-<h1 id="-20"><a href="#-20" class="headerlink" title></a></h1><ul>
+<h1 id="-21"><a href="#-21" class="headerlink" title></a></h1><ul>
 <li><p><strong>① Test.html</strong> 마우스 오른쪽 클릭 → <strong>② Run As</strong>에 마우스 커서 놓기 → <strong>③ Run on Server</strong> 클릭</p>
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%2026.png"></p>
 </li>
 </ul>
-<h1 id="-21"><a href="#-21" class="headerlink" title></a></h1><ul>
+<h1 id="-22"><a href="#-22" class="headerlink" title></a></h1><ul>
 <li><p><strong>①</strong> 자신이 설치한 Tomcat 버전 클릭 (<strong>글쓴이는 Tomcat 9 설치</strong>) → <strong>② Next</strong> 클릭</p>
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%2027.png"></p>
 </li>
 </ul>
-<h1 id="-22"><a href="#-22" class="headerlink" title></a></h1><ul>
+<h1 id="-23"><a href="#-23" class="headerlink" title></a></h1><ul>
 <li><p>Project Name인 <strong>Test</strong>있는지 확인 → <strong>Finish</strong> 클릭</p>
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%2028.png"></p>
 </li>
 </ul>
-<h1 id="-23"><a href="#-23" class="headerlink" title></a></h1><ul>
+<h1 id="-24"><a href="#-24" class="headerlink" title></a></h1><ul>
 <li><p><strong>연동 성공!</strong></p>
 <p>  <img src="/Images/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/Untitled%2029.png"></p>
 </li>

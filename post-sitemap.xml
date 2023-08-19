@@ -9,8 +9,32 @@
 
 
     <url>
+        <loc>https://Depra3.github.io/2023/06/21/2023/06/Git%26Github/</loc>
+        <lastmod>2023-08-19T10:23:03.982Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://Depra3.github.io/2023/06/18/2023/06/Visual_Studio_Code_Install/</loc>
+        <lastmod>2023-08-19T10:18:31.693Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://Depra3.github.io/2023/01/07/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/</loc>
+        <lastmod>2023-08-19T10:16:13.806Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://Depra3.github.io/2022/12/27/2022/12/20/JAVA_EE_%26_Apche_Tomcat_Install/</loc>
-        <lastmod>2023-08-17T10:33:04.125Z</lastmod>
+        <lastmod>2023-08-19T10:12:28.861Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -18,7 +42,7 @@
 
     <url>
         <loc>https://Depra3.github.io/2022/12/19/2022/12/20/JDK_Install/</loc>
-        <lastmod>2023-08-17T10:14:43.245Z</lastmod>
+        <lastmod>2023-08-19T10:09:16.124Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -331,30 +355,6 @@
     <url>
         <loc>https://Depra3.github.io/2023/07/03/2023/07/1%EA%B3%BC%EB%AA%A9-2%EC%9E%A5-%E2%91%A2/</loc>
         <lastmod>2023-07-03T12:36:09.535Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://Depra3.github.io/2023/06/21/2023/06/Git%26Github/</loc>
-        <lastmod>2023-06-21T12:32:29.260Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://Depra3.github.io/2023/06/18/2023/06/Visual_Studio_Code_Install/</loc>
-        <lastmod>2023-06-21T12:29:37.859Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://Depra3.github.io/2023/01/07/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/</loc>
-        <lastmod>2023-06-21T12:29:36.120Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

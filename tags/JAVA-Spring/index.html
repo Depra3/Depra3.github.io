@@ -34,66 +34,91 @@
       window.addEventListener('hashchange', switchTab, false);
   })();
   </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/rss2.xml" title="Depra3's Learning" type="application/rss+xml">
-</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">Depra3&#039;s Site</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="external nofollow noopener noreferrer" title="Download on GitHub" href="https://github.com/Depra3/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/tags">Tags</a></li><li class="is-active"><a href="#" aria-current="page">JAVA Spring</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2023-01-07T09:00:00.000Z" title="2023. 1. 7. 오후 6:00:00">2023-01-07</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-06-21T12:29:36.120Z" title="2023. 6. 21. 오후 9:29:36">2023-06-21</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">4 minutes read (About 556 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/01/07/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/">JAVA Spring Boot(STS - Spring Tools 4) 설치</a></h1><div class="content"><h1 id="JAVA-Spring-Boot를-사용하기-위한-준비"><a href="#JAVA-Spring-Boot를-사용하기-위한-준비" class="headerlink" title="JAVA Spring Boot를 사용하기 위한 준비"></a>JAVA Spring Boot를 사용하기 위한 준비</h1><ul>
-<li><p><strong>Eclipse EE version은 2022-09(4.25.0)</strong></p>
-</li>
-<li><p><strong>설치 방법 링크</strong></p>
-<p>  <a href="https://depra3.github.io/2022/12/27/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/">JAVA EE &amp; Apche Tomcat 설치</a></p>
-</li>
+</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">Depra3&#039;s Site</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="external nofollow noopener noreferrer" title="Download on GitHub" href="https://github.com/Depra3/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/tags">Tags</a></li><li class="is-active"><a href="#" aria-current="page">JAVA Spring</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2023-01-07T09:00:00.000Z" title="2023. 1. 7. 오후 6:00:00">2023-01-07</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-08-19T10:16:13.806Z" title="2023. 8. 19. 오후 7:16:13">2023-08-19</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">3 minutes read (About 517 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/01/07/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/">JAVA Spring Boot(STS - Spring Tools 4) 설치</a></h1><div class="content"><h1 id="JAVA-Spring-Boot를-사용하기-위한-준비"><a href="#JAVA-Spring-Boot를-사용하기-위한-준비" class="headerlink" title="JAVA Spring Boot를 사용하기 위한 준비"></a>JAVA Spring Boot를 사용하기 위한 준비</h1><ul>
+<li><strong>Eclipse EE version은 2022-09(4.25.0)</strong></li>
+<li><strong>설치 방법 링크 : <a href="https://depra3.github.io/2022/12/27/2022/12/20/JAVA_EE_&_Apche_Tomcat_Install/">JAVA EE &amp; Apche Tomcat 설치</a></strong></li>
+</ul>
+<h1 id><a href="#" class="headerlink" title></a></h1><ul>
 <li><p><strong>Help</strong> → <strong>Eclipse Marketplace…</strong> 클릭 (잠시 동안 로딩이 있을 수 있습니다.)</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled.png"></p>
 </li>
+</ul>
+<h1 id="-1"><a href="#-1" class="headerlink" title></a></h1><ul>
 <li><p><strong>sts</strong> 검색 → 최신 버전(현재는 Spring Tools 4가 최신) 찾기 → <strong>Install</strong> 클릭</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%201.png"></p>
 </li>
+</ul>
+<h1 id="-2"><a href="#-2" class="headerlink" title></a></h1><ul>
 <li><p><strong>Confirm</strong> 클릭</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%202.png"></p>
 </li>
+</ul>
+<h1 id="-3"><a href="#-3" class="headerlink" title></a></h1><ul>
 <li><p>약 2~3분 정도 소요됩니다.</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%203.png"></p>
 </li>
+</ul>
+<h1 id="-4"><a href="#-4" class="headerlink" title></a></h1><ul>
 <li><p><strong>①</strong> <strong>동그라미</strong> 체크 → <strong>② Finish</strong> 클릭</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%204.png"></p>
 </li>
-<li><p>붉은 박스 클릭하면 현재 진행도가 상세하게 나옵니다.</p>
-</li>
-<li><p>설치에 시간이 걸리니 커피 한 잔을 타고 와서 지켜봅시다.(약 4분 정도 소요됨)</p>
+</ul>
+<h1 id="-5"><a href="#-5" class="headerlink" title></a></h1><ul>
+<li><p><strong>붉은 박스 클릭하면 현재 진행도가 상세</strong>하게 나옵니다.</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%205.png"></p>
 </li>
-<li><p>설치 중간에 갑자기 Trust 창이 뜹니다.</p>
+</ul>
+<h1 id="-6"><a href="#-6" class="headerlink" title></a></h1><ul>
+<li><p>설치 중간에 갑자기 <strong>Trust 창</strong>이 뜹니다.</p>
 </li>
 <li><p><strong>① Select All</strong> 클릭 → <strong>② Trust Selected</strong> 클릭</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%206.png"></p>
 </li>
+</ul>
+<h1 id="-7"><a href="#-7" class="headerlink" title></a></h1><ul>
 <li><p><strong>Restart Now</strong> 클릭</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%207.png"></p>
 </li>
-<li><p>Eclipse가 다시 시작되니 한 잔 타 온 커피를 마시면서 기다려봅시다.</p>
+</ul>
+<h1 id="-8"><a href="#-8" class="headerlink" title></a></h1><ul>
+<li><p>Eclipse가 다시 시작되니 잠시 기다려봅시다.</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%208.png"></p>
 </li>
 </ul>
+<hr>
 <h2 id="☆-TEST-☆"><a href="#☆-TEST-☆" class="headerlink" title="☆ TEST ☆"></a>☆ TEST ☆</h2><ul>
 <li><p><strong>File</strong> 클릭 → <strong>New</strong>에 마우스 커서 놓기 → <strong>Other..</strong> 클릭</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%209.png"></p>
 </li>
+</ul>
+<h1 id="-9"><a href="#-9" class="headerlink" title></a></h1><ul>
 <li><p><strong>① spring</strong> 입력 (자동 검색) → <strong>② Spring Starter Project</strong> 클릭 → <strong>③ Next</strong> 클릭</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%2010.png"></p>
 </li>
+</ul>
+<h1 id="-10"><a href="#-10" class="headerlink" title></a></h1><ul>
 <li><p><strong>①</strong> Project 이름 &#x2F; <strong>②</strong> Gradle - Groovy로 설정 &#x2F; <strong>③</strong> 클릭하여 8로 설정  &#x2F; <strong>④</strong> 클릭하여 War로 설정</p>
 <p>  (<strong>글쓴이가 배운 설정입니다.</strong>)</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%2011.png"></p>
 </li>
+</ul>
+<h1 id="-11"><a href="#-11" class="headerlink" title></a></h1><ul>
 <li><p>설정 후 확인</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%2012.png"></p>
 </li>
+</ul>
+<h1 id="-12"><a href="#-12" class="headerlink" title></a></h1><ul>
 <li><p><strong>① spring web</strong> 입력 → <strong>②</strong> 네모박스 체크 → <strong>③</strong> 선택되었는지 확인 → <strong>④ Finish</strong> 클릭</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%2013.png"></p>
 </li>
+</ul>
+<h1 id="-13"><a href="#-13" class="headerlink" title></a></h1><ul>
 <li><p>그림과 같은 구조로 생성되는 것을 확인할 수 있습니다.</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%2014.png"></p>
 </li>
-<li><p>간혹 유효성 관련한 창이 뜨기도 하는데 검색해보니 검색을 잘 못하는 건지 찾기가 힘듭니다.</p>
-<p>  아무거나 클릭해도 무방할 듯 싶습니다.</p>
+</ul>
+<h1 id="-14"><a href="#-14" class="headerlink" title></a></h1><ul>
+<li><p>간혹 유효성 관련한 창이 뜨기도 하는데 검색해보니 검색을 잘 못하는 건지 찾기가 힘듭니다.<br>아무거나 클릭해도 무방할 듯 싶습니다.</p>
 <p>  <img src="/Images/2023/01/JAVA_Spring_Boot_(STS-Spring_Tools_4)_Install/Untitled%2015.png"></p>
 </li>
 </ul>
