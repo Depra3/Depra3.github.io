@@ -9,8 +9,48 @@
 
 
     <url>
+        <loc>https://Depra3.github.io/2023/07/20/2023/07/JAVA-%EB%B0%B0%EC%97%B4-%E2%91%A0/</loc>
+        <lastmod>2023-08-24T11:21:08.358Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://Depra3.github.io/2023/07/24/2023/07/JAVA-%EB%B0%B0%EC%97%B4-%E2%91%A1/</loc>
+        <lastmod>2023-08-24T11:18:59.458Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://Depra3.github.io/2023/08/02/2023/08/JAVA-%EC%83%9D%EC%84%B1%EC%9E%90/</loc>
+        <lastmod>2023-08-24T11:16:56.965Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://Depra3.github.io/2023/08/04/2023/08/JAVA-%EB%A9%94%EC%86%8C%EB%93%9C/</loc>
+        <lastmod>2023-08-24T11:16:13.298Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://Depra3.github.io/2023/08/16/2023/08/JAVA-GetterSetter%EB%A9%94%EC%86%8C%EB%93%9C/</loc>
+        <lastmod>2023-08-24T11:14:09.037Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://Depra3.github.io/2023/08/23/2023/08/JAVA-%EC%83%81%EC%86%8D-Interface/</loc>
-        <lastmod>2023-08-23T12:30:58.884Z</lastmod>
+        <lastmod>2023-08-24T11:13:02.805Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -81,22 +121,6 @@
     </url>
 
     <url>
-        <loc>https://Depra3.github.io/2023/08/16/2023/08/JAVA-GetterSetter%EB%A9%94%EC%86%8C%EB%93%9C/</loc>
-        <lastmod>2023-08-17T10:03:51.433Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://Depra3.github.io/2023/08/04/2023/08/JAVA-%EB%A9%94%EC%86%8C%EB%93%9C/</loc>
-        <lastmod>2023-08-15T11:28:33.822Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://Depra3.github.io/2023/08/07/2023/08/JAVA-%EC%A0%91%EA%B7%BC%EC%A0%9C%EC%96%B4%EC%9E%90/</loc>
         <lastmod>2023-08-15T11:26:54.133Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -137,14 +161,6 @@
     </url>
 
     <url>
-        <loc>https://Depra3.github.io/2023/08/02/2023/08/JAVA-%EC%83%9D%EC%84%B1%EC%9E%90/</loc>
-        <lastmod>2023-08-08T09:10:57.269Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://Depra3.github.io/2023/07/12/2023/07/JAVA-%EC%A1%B0%EA%B1%B4%EB%AC%B8-IF%EB%AC%B8/</loc>
         <lastmod>2023-08-03T09:10:05.941Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -179,22 +195,6 @@
     <url>
         <loc>https://Depra3.github.io/2023/07/18/2023/07/JAVA-%EB%B0%98%EB%B3%B5%EB%AC%B8-for%EB%AC%B8/</loc>
         <lastmod>2023-08-03T09:08:47.785Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://Depra3.github.io/2023/07/20/2023/07/JAVA-%EB%B0%B0%EC%97%B4-%E2%91%A0/</loc>
-        <lastmod>2023-08-03T09:08:32.454Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://Depra3.github.io/2023/07/24/2023/07/JAVA-%EB%B0%B0%EC%97%B4-%E2%91%A1/</loc>
-        <lastmod>2023-08-03T09:07:46.181Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
