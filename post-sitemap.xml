@@ -9,6 +9,38 @@
 
 
     <url>
+        <loc>https://Depra3.github.io/2023/06/26/2023/06/JAVA-%EC%98%88%EC%95%BD%EC%96%B4/</loc>
+        <lastmod>2023-08-25T11:07:32.068Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://Depra3.github.io/2023/06/27/2023/06/JAVA-%EB%B3%80%EC%88%98/</loc>
+        <lastmod>2023-08-25T11:06:59.731Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://Depra3.github.io/2023/06/22/2023/06/Node.js-Github_Blog/</loc>
+        <lastmod>2023-08-25T11:05:31.653Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://Depra3.github.io/2023/06/18/2023/06/Visual_Studio_Code_Install/</loc>
+        <lastmod>2023-08-25T10:57:04.271Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://Depra3.github.io/2023/08/22/2023/08/JAVA-%EC%83%81%EC%86%8D-CLASS/</loc>
         <lastmod>2023-08-24T12:18:12.332Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -75,14 +107,6 @@
     <url>
         <loc>https://Depra3.github.io/2023/06/21/2023/06/Git%26Github/</loc>
         <lastmod>2023-08-19T10:23:03.982Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://Depra3.github.io/2023/06/18/2023/06/Visual_Studio_Code_Install/</loc>
-        <lastmod>2023-08-19T10:18:31.693Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -265,22 +289,6 @@
     </url>
 
     <url>
-        <loc>https://Depra3.github.io/2023/06/26/2023/06/JAVA-%EC%98%88%EC%95%BD%EC%96%B4/</loc>
-        <lastmod>2023-07-19T11:21:51.168Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://Depra3.github.io/2023/06/27/2023/06/JAVA-%EB%B3%80%EC%88%98/</loc>
-        <lastmod>2023-07-19T11:21:45.997Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://Depra3.github.io/2023/06/28/2023/06/JAVA-%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%83%80%EC%9E%85/</loc>
         <lastmod>2023-07-19T11:21:42.985Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -331,14 +339,6 @@
     <url>
         <loc>https://Depra3.github.io/2023/07/07/2023/07/1%EA%B3%BC%EB%AA%A9-3%EC%9E%A5-%E2%91%A0/</loc>
         <lastmod>2023-07-07T12:09:18.411Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://Depra3.github.io/2023/06/22/2023/06/Node.js-Github_Blog/</loc>
-        <lastmod>2023-07-06T13:28:36.702Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
