@@ -9,8 +9,46 @@
     <atom:link href="https://depra3.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>개발자가 되고 싶습니다.</description>
-    <pubDate>Thu, 24 Aug 2023 12:18:02 GMT</pubDate>
+    <pubDate>Sat, 26 Aug 2023 11:35:06 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>JAVA - 추상클래스 (Abstract Class)</title>
+      <link>https://depra3.github.io/2023/08/26/2023/08/JAVA-%EC%B6%94%EC%83%81%ED%81%B4%EB%9E%98%EC%8A%A4(Abstract%20Class)/</link>
+      <guid>https://depra3.github.io/2023/08/26/2023/08/JAVA-%EC%B6%94%EC%83%81%ED%81%B4%EB%9E%98%EC%8A%A4(Abstract%20Class)/</guid>
+      <pubDate>Sat, 26 Aug 2023 11:30:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;추상-클래스-Abstract-Class&quot;&gt;&lt;a href=&quot;#추상-클래스-Abstract-Class&quot; class=&quot;headerlink&quot; title=&quot;추상 클래스 (Abstract Class)&quot;&gt;&lt;/a&gt;&lt;strong&gt;추상 클래스 (Abstr</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="추상-클래스-Abstract-Class"><a href="#추상-클래스-Abstract-Class" class="headerlink" title="추상 클래스 (Abstract Class)"></a><strong>추상 클래스 (Abstract Class)</strong></h1><blockquote><p><strong>하나 이상의 추상 메소드를 포함하는 클래스<br>추상 메소드를 선언하고, 자식 클래스에서 메소드를 완성하도록 하는 클래스</strong>다.<br>따라서, <strong>미완성 설계도</strong>라고도 불린다.</p></blockquote><h1 id="특징"><a href="#특징" class="headerlink" title="특징"></a>특징</h1><ul><li>객체 지향 프로그래밍에서 <strong>중요한 특징인 다형성을 가지는 메소드의 집합을 정의</strong>할 수 있도록 한다.</li><li>반드시 <strong>사용되어야 하는 메소드를 추상 클래스에서 선언</strong>해 놓으면, 이 <strong>클래스를 상속 받는 모든 클래스에서 해당하는 추상 클래스를 반드시 재정의</strong>를 ****해야한다.</li><li><strong>상속을 위한 클래스이므로 인스턴스를 따로 생성할 수 없다. ( new 생성 불가)</strong></li></ul><h1 id="사용-목적"><a href="#사용-목적" class="headerlink" title="사용 목적"></a><strong>사용 목적</strong></h1><h3 id="①-공통된-필드와-메소드를-통일"><a href="#①-공통된-필드와-메소드를-통일" class="headerlink" title="① 공통된 필드와 메소드를 통일"></a>① 공통된 필드와 메소드를 통일</h3><ul><li><strong>중복으로 사용하는 필드와 메소드를 제거하여 유지보수가 편하다.</strong></li></ul><h3 id="②-구현의-강제성을-이용한-기능-보장"><a href="#②-구현의-강제성을-이용한-기능-보장" class="headerlink" title="② 구현의 강제성을 이용한 기능 보장"></a>② 구현의 강제성을 이용한 기능 보장</h3><ul><li>해당 프로그램의 <strong>기능에 필요한 메소드들을 잊고 코딩하지 않는다면 나중에 문제</strong>가 생길 수도 있다. <strong>그러나 추상 클래스를 상속</strong>받는다면 <strong>해당 클래스의 메소드들을 전부 구현</strong>해야하기 때문에 <strong>기능들을 빼놓고 구현할 수 없다.</strong></li></ul><h3 id="③-규격에-맞는-설계-구현"><a href="#③-규격에-맞는-설계-구현" class="headerlink" title="③ 규격에 맞는 설계 구현"></a>③ 규격에 맞는 설계 구현</h3><ul><li><strong>존재하는 제품을 개발자 마음대로 구현한다면 불량(에러)이 생길 수도 있기 때문에 해당 제품의 설계서에 따른 규격에 맞게 구현</strong>해야 한다.</li></ul><hr><h1 id="선언"><a href="#선언" class="headerlink" title="선언"></a>선언</h1><ul><li><p><strong>예시</strong></p>  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">abstract</span> class 클래스명&#123;</span><br><span class="line">접근제어자 자료형 변수명;</span><br><span class="line">접근제어자 <span class="keyword">abstract</span> 리턴타입 메소드명();</span><br><span class="line">접근제어자 리턴타입 메소드명();</span><br><span class="line">...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p><strong>코드</strong></p>  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">abstract</span> <span class="keyword">class</span> <span class="title class_">AbTest</span> &#123;</span><br><span class="line"><span class="keyword">public</span> <span class="type">int</span> currentSpeed;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="title function_">AbTest</span><span class="params">(<span class="type">int</span> speed)</span> &#123;    <span class="comment">// 기본 생성자</span></span><br><span class="line"><span class="built_in">this</span>.currentSpeed = speed;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">drive</span><span class="params">()</span> &#123;</span><br><span class="line">System.out.println(<span class="string">&quot;전진&quot;</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">stop</span><span class="params">()</span> &#123;</span><br><span class="line">System.out.println(<span class="string">&quot;정지&quot;</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">void</span> <span class="title function_">bbang</span><span class="params">()</span>;  <span class="comment">// 자동차 경적음 추상 메소드화</span></span><br><span class="line">&#125;</span><br><span class="line">----------------------------------------</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Test</span> <span class="keyword">extends</span> <span class="title class_">AbTest</span> &#123;     <span class="comment">// 추상 클래스 상속</span></span><br><span class="line"><span class="keyword">public</span> <span class="title function_">Test</span><span class="params">(<span class="type">int</span> speed)</span> &#123;    <span class="comment">// 기본 생성자</span></span><br><span class="line"><span class="comment">// super 키워드로 추상 클래스 기본 생성자 이용</span></span><br><span class="line"><span class="built_in">super</span>(speed);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">showInfo</span><span class="params">()</span> &#123;</span><br><span class="line">System.out.printf(<span class="string">&quot;Car의 현재 속도 : %d \n&quot;</span>, <span class="built_in">this</span>.currentSpeed);</span><br><span class="line">&#125;</span><br><span class="line"><span class="meta">@Override</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">bbang</span><span class="params">()</span> &#123;       <span class="comment">// 추상 클래스 메소드를 상속받아 오버라이딩</span></span><br><span class="line">System.out.println(<span class="string">&quot;빠----앙!!&quot;</span>); <span class="comment">// 자동차 경적음 지정</span></span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">----------------------------------------</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Exam</span> &#123;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line"><span class="type">Test</span> <span class="variable">tCar</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Test</span>(<span class="number">100</span>);</span><br><span class="line">tCar.drive();</span><br><span class="line">tCar.showInfo();</span><br><span class="line">tCar.bbang();</span><br><span class="line">tCar.stop();</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p><strong>결과</strong></p><p>  <img src="/Images/2023/08/JAVA-%EC%B6%94%EC%83%81%ED%81%B4%EB%9E%98%EC%8A%A4(AbstractClass)/Untitled.png"></p></li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://Depra3.github.io/categories/JAVA/">JAVA</category>
+      
+      
+      <category domain="https://Depra3.github.io/tags/%EA%B0%9C%EB%85%90/">개념</category>
+      
+      <category domain="https://Depra3.github.io/tags/%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/">객체 지향 프로그래밍</category>
+      
+      <category domain="https://Depra3.github.io/tags/%ED%8C%A8%ED%82%A4%EC%A7%80/">패키지</category>
+      
+      <category domain="https://Depra3.github.io/tags/%EC%B6%94%EC%83%81-%ED%81%B4%EB%9E%98%EC%8A%A4/">추상 클래스</category>
+      
+      <category domain="https://Depra3.github.io/tags/%EC%B6%94%EC%83%81-%EB%A9%94%EC%86%8C%EB%93%9C/">추상 메소드</category>
+      
+      <category domain="https://Depra3.github.io/tags/%EB%AF%B8%EC%99%84%EC%84%B1-%EC%84%A4%EA%B3%84%EB%8F%84/">미완성 설계도</category>
+      
+      <category domain="https://Depra3.github.io/tags/%EC%98%A4%EB%B2%84%EB%9D%BC%EC%9D%B4%EB%94%A9/">오버라이딩</category>
+      
+      
+      <comments>https://depra3.github.io/2023/08/26/2023/08/JAVA-%EC%B6%94%EC%83%81%ED%81%B4%EB%9E%98%EC%8A%A4(Abstract%20Class)/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>JAVA - 상속 - Interface</title>
@@ -683,37 +721,6 @@
       
       
       <comments>https://depra3.github.io/2023/07/22/2023/07/2%EA%B3%BC%EB%AA%A9-1%EC%9E%A5-%E2%91%A0/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>JAVA - 반복문 - foreach 문</title>
-      <link>https://depra3.github.io/2023/07/21/2023/07/JAVA-%EB%B0%98%EB%B3%B5%EB%AC%B8-foreach%EB%AC%B8/</link>
-      <guid>https://depra3.github.io/2023/07/21/2023/07/JAVA-%EB%B0%98%EB%B3%B5%EB%AC%B8-foreach%EB%AC%B8/</guid>
-      <pubDate>Fri, 21 Jul 2023 11:00:00 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;반복문&quot;&gt;&lt;a href=&quot;#반복문&quot; class=&quot;headerlink&quot; title=&quot;반복문&quot;&gt;&lt;/a&gt;반복문&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;프로그램 흐름에서 일정 횟수를 반복하고 싶은 구간에 사용하는 제어문&lt;/strong&gt;이다.&lt;/l</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="반복문"><a href="#반복문" class="headerlink" title="반복문"></a>반복문</h1><ul><li><strong>프로그램 흐름에서 일정 횟수를 반복하고 싶은 구간에 사용하는 제어문</strong>이다.</li><li><strong>종류 : while 문, do ~ while 문, for 문, foreach 문</strong></li></ul><h1 id="foreach-문"><a href="#foreach-문" class="headerlink" title="foreach 문"></a>foreach 문</h1><ul><li><strong>자바 1.5버전부터 foreach 기능 추가</strong></li><li><strong>초기값, 리스트 or 배열를 앞에 정의하여 사용하는 반복문</strong>이다.</li><li><strong>리스트 목록을 받아 리스트 목록 개수만큼 반복문 안의 실행문을 실행</strong>한다.</li></ul><h2 id="사용-형식"><a href="#사용-형식" class="headerlink" title="사용 형식"></a>사용 형식</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">데이터 타입[] 변수명 ① = &#123; ... &#125;;</span><br><span class="line"><span class="keyword">for</span> ( 데이터타입 변수명 ②: 변수명 ①) &#123;</span><br><span class="line">System.out.println(변수명 ②);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h1 id=""><a href="#" class="headerlink" title=""></a></h1><ul><li><p><strong>예시</strong></p>  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">String[] a = &#123; <span class="string">&quot;일&quot;</span>, <span class="string">&quot;이&quot;</span>, <span class="string">&quot;삼&quot;</span>&#125;;</span><br><span class="line"><span class="keyword">for</span> (String str : a) &#123;</span><br><span class="line">System.out.println(str);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul><h1 id="-1"><a href="#-1" class="headerlink" title=""></a></h1><ul><li><p><strong>결과</strong></p><p>  <img src="/Images/2023/07/JAVA-%EB%B0%98%EB%B3%B5%EB%AC%B8-foreach%EB%AC%B8/Untitled.png"></p></li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://Depra3.github.io/categories/JAVA/">JAVA</category>
-      
-      
-      <category domain="https://Depra3.github.io/tags/%EA%B0%9C%EB%85%90/">개념</category>
-      
-      <category domain="https://Depra3.github.io/tags/%EB%B0%98%EB%B3%B5%EB%AC%B8/">반복문</category>
-      
-      <category domain="https://Depra3.github.io/tags/foreach%EB%AC%B8/">foreach문</category>
-      
-      
-      <comments>https://depra3.github.io/2023/07/21/2023/07/JAVA-%EB%B0%98%EB%B3%B5%EB%AC%B8-foreach%EB%AC%B8/#disqus_thread</comments>
       
     </item>
     
