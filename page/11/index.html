@@ -360,7 +360,7 @@
 </ul>
 </li>
 </ul>
-</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2023-07-05T12:00:00.000Z" title="2023. 7. 5. 오후 9:00:00">2023-07-05</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-07-19T11:20:45.609Z" title="2023. 7. 19. 오후 8:20:45">2023-07-19</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">5 minutes read (About 749 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/07/05/2023/07/JAVA-%EC%97%B0%EC%82%B0%EC%9E%90-%E2%91%A1%20%EC%82%B0%EC%88%A0,%20%EB%B6%80%ED%98%B8,%20%EB%AC%B8%EC%9E%90%EC%97%B4,%20%EB%8C%80%EC%9E%85/">JAVA-연산자-② 산술, 부호, 문자열, 대입</a></h1><div class="content"><h1 id="산술-연산자"><a href="#산술-연산자" class="headerlink" title="산술 연산자"></a>산술 연산자</h1><ul>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2023-07-05T12:00:00.000Z" title="2023. 7. 5. 오후 9:00:00">2023-07-05</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-08-29T10:45:47.574Z" title="2023. 8. 29. 오후 7:45:47">2023-08-29</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">5 minutes read (About 749 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/07/05/2023/07/JAVA-%EC%97%B0%EC%82%B0%EC%9E%90-%E2%91%A1%20%EC%82%B0%EC%88%A0,%20%EB%B6%80%ED%98%B8,%20%EB%AC%B8%EC%9E%90%EC%97%B4,%20%EB%8C%80%EC%9E%85/">JAVA-연산자-② 산술, 부호, 문자열, 대입</a></h1><div class="content"><h1 id="산술-연산자"><a href="#산술-연산자" class="headerlink" title="산술 연산자"></a>산술 연산자</h1><ul>
 <li><p>가장 기본이 되는 연산자로 **4칙 연산( +, -, *, &#x2F;)**과 <strong>나머지 값</strong>을 구하는 **나머지 연산자(%)**가 있다.</p>
 <table>
 <thead>
@@ -391,7 +391,9 @@
 </tr>
 </tbody></table>
 </li>
-<li><p><strong>예시</strong></p>
+</ul>
+<h1 id><a href="#" class="headerlink" title></a></h1><ul>
+<li><p><strong>코드</strong></p>
   <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">a</span> <span class="operator">=</span> <span class="number">10</span>;</span><br><span class="line">System.out.println(<span class="string">&quot;a + 5 = &quot;</span> + (a + <span class="number">5</span>));</span><br><span class="line"><span class="comment">// 10 + 5 =&gt; 15</span></span><br><span class="line">System.out.println(<span class="string">&quot;a - 5 = &quot;</span> + (a - <span class="number">5</span>));</span><br><span class="line"><span class="comment">// 10 - 5 =&gt; 5</span></span><br><span class="line">System.out.println(<span class="string">&quot;a * 5 = &quot;</span> + (a * <span class="number">5</span>));</span><br><span class="line"><span class="comment">// 10 * 5 =&gt; 50</span></span><br><span class="line">System.out.println(<span class="string">&quot;a / 5 = &quot;</span> + (a / <span class="number">5</span>));</span><br><span class="line"><span class="comment">// 10 / 5 =&gt; 2</span></span><br><span class="line">System.out.println(<span class="string">&quot;a % 5 = &quot;</span> + (a % <span class="number">5</span>));</span><br><span class="line"><span class="comment">// 10 % 5 =&gt; 나머지는 0</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><p><strong>결과</strong></p>
@@ -418,7 +420,9 @@
 </tr>
 </tbody></table>
 </li>
-<li><p><strong>예시</strong></p>
+</ul>
+<h1 id="-1"><a href="#-1" class="headerlink" title></a></h1><ul>
+<li><p><strong>코드</strong></p>
   <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">a</span> <span class="operator">=</span> <span class="number">10</span>;</span><br><span class="line">System.out.println(<span class="string">&quot;+a = &quot;</span> + (+a));</span><br><span class="line"><span class="comment">// a 변수값 그대로 출력</span></span><br><span class="line">System.out.println(<span class="string">&quot;-a = &quot;</span> + (-a));</span><br><span class="line"><span class="comment">// a 변수값을 음수로 변환하여 출력</span></span><br><span class="line">System.out.println(<span class="string">&quot;----------&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="variable">b</span> <span class="operator">=</span> -a;    <span class="comment">// 의도 : a 변수값을 음수로 변환하여 대입</span></span><br><span class="line">System.out.println(<span class="string">&quot;b = &quot;</span> + b);</span><br><span class="line"><span class="type">int</span> <span class="variable">c</span> <span class="operator">=</span> +b;    <span class="comment">// 의도 : b 변수값을 양수로 변환하여 대입</span></span><br><span class="line">System.out.println(<span class="string">&quot;c = &quot;</span> + c);</span><br><span class="line"><span class="type">int</span> <span class="variable">d</span> <span class="operator">=</span> -b;    <span class="comment">// 의도 : b 변수값을 음수로 변환하여 대입</span></span><br><span class="line">System.out.println(<span class="string">&quot;d = &quot;</span> + d);</span><br></pre></td></tr></table></figure>
 </li>
 <li><p><strong>결과</strong></p>
@@ -438,12 +442,13 @@
 </ul>
 <hr>
 <h1 id="문자열-연산자"><a href="#문자열-연산자" class="headerlink" title="문자열 연산자"></a>문자열 연산자</h1><ul>
-<li><p><strong>이항</strong> 연산자이며 <strong>두 개의 피연산자 중 하나가 문자열인 경우 문자열로 결합</strong>한다.</p>
-</li>
-<li><p>예시</p>
+<li><strong>이항</strong> 연산자이며 <strong>두 개의 피연산자 중 하나가 문자열인 경우 문자열로 결합</strong>한다.</li>
+</ul>
+<h1 id="-2"><a href="#-2" class="headerlink" title></a></h1><ul>
+<li><p><strong>코드</strong></p>
   <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">System.out.println(<span class="number">1</span> + <span class="number">1</span>);     <span class="comment">// 숫자 1 + 숫자 1 = 2</span></span><br><span class="line">System.out.println(<span class="string">&quot;1&quot;</span> + <span class="number">1</span>);   <span class="comment">// 문자열 &quot;1&quot; + 숫자 1 = &quot;1&quot;1</span></span><br><span class="line">System.out.println(<span class="string">&quot;1&quot;</span> + <span class="string">&quot;2&quot;</span>); <span class="comment">// 문자열 &quot;1&quot; + 문자열 &quot;2&quot; = &quot;1&quot;&quot;2&quot;</span></span><br></pre></td></tr></table></figure>
 </li>
-<li><p>결과</p>
+<li><p><strong>결과</strong></p>
 <p>  <img src="/Images/2023/07/JAVA-%EC%97%B0%EC%82%B0%EC%9E%90-%E2%91%A1/Untitled%202.png"></p>
 <ul>
 <li>1+1의 연산은 문자열이 없어 산술 계산</li>
@@ -487,10 +492,12 @@
 </tr>
 </tbody></table>
 </li>
-<li><p>예시</p>
+</ul>
+<h1 id="-3"><a href="#-3" class="headerlink" title></a></h1><ul>
+<li><p><strong>코드</strong></p>
   <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">a</span> <span class="operator">=</span> <span class="number">10</span>;</span><br><span class="line">System.out.println(<span class="string">&quot;a = 10 =&gt; a = &quot;</span> + a);</span><br><span class="line"></span><br><span class="line">a += <span class="number">5</span>;</span><br><span class="line">System.out.println(<span class="string">&quot;10 += 5 =&gt; a = &quot;</span> + a);</span><br><span class="line"><span class="comment">// a = 10 + 5</span></span><br><span class="line">a -= <span class="number">5</span>;</span><br><span class="line">System.out.println(<span class="string">&quot;15 -= 5 =&gt; a = &quot;</span> + a);</span><br><span class="line"><span class="comment">// a = 15 - 5</span></span><br><span class="line">a *= <span class="number">5</span>;</span><br><span class="line">System.out.println(<span class="string">&quot;10 *= 5 =&gt; a = &quot;</span> + a);</span><br><span class="line"><span class="comment">// a = 10 * 5</span></span><br><span class="line">a /= <span class="number">5</span>;</span><br><span class="line">System.out.println(<span class="string">&quot;50 /= 5 =&gt; a = &quot;</span> + a);</span><br><span class="line"><span class="comment">// a = 50 / 5</span></span><br><span class="line">a %= <span class="number">5</span>;</span><br><span class="line">System.out.println(<span class="string">&quot;10 %= 5 =&gt; a = &quot;</span> + a);</span><br><span class="line"><span class="comment">// a = 10 % 5 - 나머지 0</span></span><br></pre></td></tr></table></figure>
 </li>
-<li><p>결과</p>
+<li><p><strong>결과</strong></p>
 <p>  <img src="/Images/2023/07/JAVA-%EC%97%B0%EC%82%B0%EC%9E%90-%E2%91%A1/Untitled%203.png"></p>
 </li>
 </ul>
