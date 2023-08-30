@@ -97,18 +97,21 @@
 <p>  <img src="/Images/2023/08/JAVA-final-%E2%91%A0/Untitled%204.png"></p>
 </li>
 </ul>
-</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2023-06-27T12:00:00.000Z" title="2023. 6. 27. 오후 9:00:00">2023-06-27</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-08-25T11:06:59.731Z" title="2023. 8. 25. 오후 8:06:59">2023-08-25</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">2 minutes read (About 251 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/06/27/2023/06/JAVA-%EB%B3%80%EC%88%98/">JAVA-변수</a></h1><div class="content"><h2 id="변수"><a href="#변수" class="headerlink" title="변수"></a>변수</h2><ul>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2023-06-27T12:00:00.000Z" title="2023. 6. 27. 오후 9:00:00">2023-06-27</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-08-30T10:53:44.193Z" title="2023. 8. 30. 오후 7:53:44">2023-08-30</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">2 minutes read (About 336 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/06/27/2023/06/JAVA-%EB%B3%80%EC%88%98/">JAVA-변수</a></h1><div class="content"><h2 id="변수"><a href="#변수" class="headerlink" title="변수"></a>변수</h2><ul>
 <li><strong>하나의 값을 저장하는 메모리 공간</strong></li>
 <li><strong>변수를 사용하는 것은 변수에 값을 저장 및 활용하는 것을 의미한다.</strong></li>
 </ul>
 <h1 id="변수-선언"><a href="#변수-선언" class="headerlink" title="변수 선언"></a>변수 선언</h1><ul>
-<li><p><strong>변수를 사용하기 위해서는 변수 타입과 변수 이름을 <code>선언</code>해야 한다.</strong></p>
-</li>
-<li><p>예시 : “ 타입 변수이름; ”</p>
-  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> a;       <span class="comment">// 정수값을 저장할 수 있는 a 변수 선언</span></span><br><span class="line"><span class="type">double</span> b;    <span class="comment">// 실수값을 저장할 수 있는 b 변수 선언</span></span><br><span class="line"><span class="type">int</span> c, d, e; <span class="comment">// 정수값을 저장할 수 있는 c, d, e 변수들 선언</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>변수명 작성 규칙</strong></p>
-<ul>
+<li><strong>변수를 사용하기 위해서는 변수 타입과 변수 이름을 <code>선언</code>해야 한다.</strong></li>
+</ul>
+<h1 id><a href="#" class="headerlink" title></a></h1><ul>
+<li><strong>예시</strong>  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">자료형 변수명;</span><br><span class="line">자료형 변수명 = <span class="string">&quot;~~&quot;</span>; or 자료형 변수명 = <span class="number">10</span>;</span><br><span class="line">자료형 변수명<span class="number">1</span>, 변수명<span class="number">2</span>;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h1 id="-1"><a href="#-1" class="headerlink" title></a></h1><ul>
+<li><strong>코드</strong>  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> a;              <span class="comment">// 정수값을 저장할 수 있는 a 변수 선언</span></span><br><span class="line"><span class="type">int</span> <span class="variable">b</span> <span class="operator">=</span> <span class="number">5</span>;          <span class="comment">// 정수값 5를 저장하는 b 변수 선언</span></span><br><span class="line"><span class="type">double</span> c;           <span class="comment">// 실수값을 저장할 수 있는 c 변수 선언</span></span><br><span class="line"><span class="type">double</span> <span class="variable">d</span> <span class="operator">=</span> <span class="number">5.5</span>;     <span class="comment">// 실수값 5.5를 저장하는 d 변수 선언</span></span><br><span class="line">String e;           <span class="comment">// 문자열을 저장할 수 있는 e 변수 선언</span></span><br><span class="line"><span class="type">String</span> <span class="variable">f</span> <span class="operator">=</span> <span class="string">&quot;hello&quot;</span>; <span class="comment">// 문자열 &quot;hello&quot; 를 저장하는 f 변수 선언</span></span><br><span class="line"><span class="type">int</span> g, h;           <span class="comment">// 정수값을 저장할 수 있는 g, h 변수들 선언</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+<h1 id="-2"><a href="#-2" class="headerlink" title></a></h1><ul>
+<li><strong>변수명 작성 규칙</strong><ul>
 <li><strong>첫 번째 글자는 문자, $, _ 이어야 하고, 숫자가 될 수 없음</strong><ul>
 <li>abc, $abc, _abc</li>
 </ul>
