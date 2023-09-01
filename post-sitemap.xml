@@ -9,8 +9,56 @@
 
 
     <url>
+        <loc>https://Depra3.github.io/2023/08/26/2023/08/JAVA-%EC%B6%94%EC%83%81%ED%81%B4%EB%9E%98%EC%8A%A4(Abstract%20Class)/</loc>
+        <lastmod>2023-09-01T12:26:19.223Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://Depra3.github.io/2023/08/21/2023/08/JAVA-%EC%8B%B1%EA%B8%80%ED%86%A4%ED%8C%A8%ED%84%B4/</loc>
+        <lastmod>2023-09-01T12:25:52.322Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://Depra3.github.io/2023/08/11/2023/08/JAVA-final-%E2%91%A1/</loc>
+        <lastmod>2023-09-01T12:24:48.369Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://Depra3.github.io/2023/08/16/2023/08/JAVA-GetterSetter%EB%A9%94%EC%86%8C%EB%93%9C/</loc>
+        <lastmod>2023-09-01T12:23:20.470Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://Depra3.github.io/2023/08/09/2023/08/JAVA-static/</loc>
+        <lastmod>2023-09-01T12:22:27.552Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://Depra3.github.io/2023/07/11/2023/07/JAVA-%EC%97%B0%EC%82%B0%EC%9E%90-%E2%91%A3%20%EB%85%BC%EB%A6%AC,%20%EC%A1%B0%EA%B1%B4/</loc>
+        <lastmod>2023-09-01T12:19:35.403Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://Depra3.github.io/2023/08/31/2023/08/JAVA-%EC%98%88%EC%99%B8(Exception)_%EC%A0%95%EC%9D%98_%EB%B0%8F_%EC%A2%85%EB%A5%98/</loc>
-        <lastmod>2023-08-31T11:48:04.998Z</lastmod>
+        <lastmod>2023-09-01T12:15:16.916Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -193,24 +241,8 @@
     </url>
 
     <url>
-        <loc>https://Depra3.github.io/2023/07/11/2023/07/JAVA-%EC%97%B0%EC%82%B0%EC%9E%90-%E2%91%A3%20%EB%85%BC%EB%A6%AC,%20%EC%A1%B0%EA%B1%B4/</loc>
-        <lastmod>2023-08-29T10:48:30.005Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://Depra3.github.io/2023/07/01/2023/07/1%EA%B3%BC%EB%AA%A9-2%EC%9E%A5-%E2%91%A1/</loc>
         <lastmod>2023-08-29T10:43:35.460Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://Depra3.github.io/2023/08/26/2023/08/JAVA-%EC%B6%94%EC%83%81%ED%81%B4%EB%9E%98%EC%8A%A4(Abstract%20Class)/</loc>
-        <lastmod>2023-08-29T10:38:42.556Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -281,22 +313,6 @@
     </url>
 
     <url>
-        <loc>https://Depra3.github.io/2023/08/16/2023/08/JAVA-GetterSetter%EB%A9%94%EC%86%8C%EB%93%9C/</loc>
-        <lastmod>2023-08-24T11:14:09.037Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://Depra3.github.io/2023/08/21/2023/08/JAVA-%EC%8B%B1%EA%B8%80%ED%86%A4%ED%8C%A8%ED%84%B4/</loc>
-        <lastmod>2023-08-21T10:33:02.606Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://Depra3.github.io/2023/06/21/2023/06/Git%26Github/</loc>
         <lastmod>2023-08-19T10:23:03.982Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -353,24 +369,8 @@
     </url>
 
     <url>
-        <loc>https://Depra3.github.io/2023/08/11/2023/08/JAVA-final-%E2%91%A1/</loc>
-        <lastmod>2023-08-15T11:21:49.021Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://Depra3.github.io/2023/08/14/2023/08/JAVA-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%99%80import/</loc>
         <lastmod>2023-08-15T11:19:26.022Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://Depra3.github.io/2023/08/09/2023/08/JAVA-static/</loc>
-        <lastmod>2023-08-09T10:24:56.158Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
