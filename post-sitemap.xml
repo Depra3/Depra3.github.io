@@ -9,8 +9,16 @@
 
 
     <url>
+        <loc>https://Depra3.github.io/2023/08/31/2023/08/JAVA-%EC%98%88%EC%99%B8(Exception)_%EC%A0%95%EC%9D%98_%EB%B0%8F_%EC%A2%85%EB%A5%98/</loc>
+        <lastmod>2023-09-04T10:12:23.278Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://Depra3.github.io/2023/09/03/2023/09/JAVA-%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC(try~catch~finally)/</loc>
-        <lastmod>2023-09-03T12:48:40.314Z</lastmod>
+        <lastmod>2023-09-04T10:06:09.610Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -59,14 +67,6 @@
     <url>
         <loc>https://Depra3.github.io/2023/07/11/2023/07/JAVA-%EC%97%B0%EC%82%B0%EC%9E%90-%E2%91%A3%20%EB%85%BC%EB%A6%AC,%20%EC%A1%B0%EA%B1%B4/</loc>
         <lastmod>2023-09-01T12:19:35.403Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://Depra3.github.io/2023/08/31/2023/08/JAVA-%EC%98%88%EC%99%B8(Exception)_%EC%A0%95%EC%9D%98_%EB%B0%8F_%EC%A2%85%EB%A5%98/</loc>
-        <lastmod>2023-09-01T12:15:16.916Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
