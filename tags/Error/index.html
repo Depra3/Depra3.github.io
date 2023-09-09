@@ -34,7 +34,34 @@
       window.addEventListener('hashchange', switchTab, false);
   })();
   </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/rss2.xml" title="Depra3's Learning" type="application/rss+xml">
-</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">Depra3&#039;s Site</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="external nofollow noopener noreferrer" title="Download on GitHub" href="https://github.com/Depra3/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/tags">Tags</a></li><li class="is-active"><a href="#" aria-current="page">Error</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2023-08-11T11:00:00.000Z" title="2023. 8. 11. 오후 8:00:00">2023-08-11</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-09-01T12:24:48.369Z" title="2023. 9. 1. 오후 9:24:48">2023-09-01</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">6 minutes read (About 902 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/08/11/2023/08/JAVA-final-%E2%91%A1/">JAVA - final - ②</a></h1><div class="content"><h1 id="final"><a href="#final" class="headerlink" title="final"></a><strong>final</strong></h1><blockquote>
+</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">Depra3&#039;s Site</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="external nofollow noopener noreferrer" title="Download on GitHub" href="https://github.com/Depra3/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/tags">Tags</a></li><li class="is-active"><a href="#" aria-current="page">Error</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2023-08-11T11:00:00.000Z" title="2023. 8. 11. 오후 8:00:00">2023-08-11</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-09-09T14:26:17.963Z" title="2023. 9. 9. 오후 11:26:17">2023-09-09</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">7 minutes read (About 997 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/08/11/2023/08/JAVA-final-%E2%91%A1/">JAVA - final - ②</a></h1><div class="content"><h1>
+<details>
+<summary>목차</summary>
+<div markdown="1">
+
+<ul>
+<li><a href="#final">final</a><ul>
+<li><a href="#%ED%8A%B9%EC%A7%95">특징</a></li>
+<li><a href="#%EC%82%AC%EC%9A%A9-%EB%AA%A9%EC%A0%81">사용 목적</a></li>
+</ul>
+</li>
+<li><a href="#final-%ED%81%B4%EB%9E%98%EC%8A%A4">final 클래스</a><ul>
+<li><a href="#%E2%98%85-%EC%98%A4%EB%A5%98-%EB%B0%9C%EC%83%9D-%E2%91%A0-%E2%98%85">★ 오류 발생 ① ★</a></li>
+</ul>
+</li>
+<li><a href="#final-%EA%B0%9D%EC%B2%B4">final 객체</a><ul>
+<li><a href="#%E2%98%85-%EC%98%A4%EB%A5%98-%EB%B0%9C%EC%83%9D-%E2%91%A1-%E2%98%85">★ 오류 발생 ② ★</a></li>
+</ul>
+</li>
+<li><a href="#%EB%A9%94%EC%86%8C%EB%93%9C-%EC%9D%B8%EC%9E%90%EA%B0%92%EC%97%90-final-%EC%82%AC%EC%9A%A9">메소드 인자값에 final 사용</a><ul>
+<li><a href="#%E2%98%85-%EC%98%A4%EB%A5%98-%EB%B0%9C%EC%83%9D-%E2%91%A2-%E2%98%85">★ 오류 발생 ③ ★</a></li></ul></li></ul></div>
+</details>
+</h1>
+
+
+
+<hr>
+<h1 id="final"><a href="#final" class="headerlink" title="final"></a><strong>final</strong></h1><blockquote>
 <p><strong>사전적 의미로 ‘결정적인’, ‘마지막의’로 쓰인다.<br>자바에서는 사전적 의미와 같이 초기값이 결정되면 최종 결정이 되어 더 이상 값을 수정할 수 없다.</strong></p>
 </blockquote>
 <h1 id="특징"><a href="#특징" class="headerlink" title="특징"></a><strong>특징</strong></h1><ul>
@@ -65,7 +92,7 @@
 <p>  <img src="/Images/2023/08/JAVA-final-%E2%91%A1/Untitled.png"></p>
 </li>
 </ul>
-<h2 id="※-오류-발생-※"><a href="#※-오류-발생-※" class="headerlink" title="※ 오류 발생 ※"></a><strong>※ 오류 발생 ※</strong></h2><ul>
+<h2 id="★-오류-발생-①-★"><a href="#★-오류-발생-①-★" class="headerlink" title="★ 오류 발생 ① ★"></a><strong>★ 오류 발생 ① ★</strong></h2><ul>
 <li><strong>final 클래스는 상속할 수 없는 클래스이기에 상속 시에 에러 발생</strong></li>
 </ul>
 <h1 id="-3"><a href="#-3" class="headerlink" title></a></h1><ul>
@@ -100,7 +127,7 @@
 <p>  <img src="/Images/2023/08/JAVA-final-%E2%91%A1/Untitled%203.png"></p>
 </li>
 </ul>
-<h2 id="※-오류-발생-※-1"><a href="#※-오류-발생-※-1" class="headerlink" title="※ 오류 발생 ※"></a><strong>※ 오류 발생 ※</strong></h2><ul>
+<h2 id="★-오류-발생-②-★"><a href="#★-오류-발생-②-★" class="headerlink" title="★ 오류 발생 ② ★"></a><strong>★ 오류 발생 ② ★</strong></h2><ul>
 <li><strong>객체 생성에 사용하면 해당 객체는 같은 타입으로 재생성이 불가능하여 재할당을 하면 에러가 발생한다.</strong></li>
 </ul>
 <h1 id="-8"><a href="#-8" class="headerlink" title></a></h1><ul>
@@ -134,7 +161,7 @@
 <p>  <img src="/Images/2023/08/JAVA-final-%E2%91%A1/Untitled%206.png"></p>
 </li>
 </ul>
-<h1 id="※-오류-발생-※-2"><a href="#※-오류-발생-※-2" class="headerlink" title="※ 오류 발생 ※"></a><strong>※ 오류 발생 ※</strong></h1><ul>
+<h1 id="★-오류-발생-③-★"><a href="#★-오류-발생-③-★" class="headerlink" title="★ 오류 발생 ③ ★"></a><strong>★ 오류 발생 ③ ★</strong></h1><ul>
 <li><strong>받은 인자값을 수정하려 하면 오류 발생</strong></li>
 </ul>
 <h1 id="-12"><a href="#-12" class="headerlink" title></a></h1><ul>
