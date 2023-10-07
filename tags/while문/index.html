@@ -34,10 +34,27 @@
       window.addEventListener('hashchange', switchTab, false);
   })();
   </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/rss2.xml" title="Depra3's Learning" type="application/rss+xml">
-</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">Depra3&#039;s Site</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="external nofollow noopener noreferrer" title="Download on GitHub" href="https://github.com/Depra3/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/tags">Tags</a></li><li class="is-active"><a href="#" aria-current="page">while문</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2023-07-15T12:00:00.000Z" title="2023. 7. 15. 오후 9:00:00">2023-07-15</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-08-29T10:54:57.685Z" title="2023. 8. 29. 오후 7:54:57">2023-08-29</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">2 minutes read (About 246 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/07/15/2023/07/JAVA-%EB%B0%98%EB%B3%B5%EB%AC%B8-while%EB%AC%B8/">JAVA-반복문-while문</a></h1><div class="content"><h1 id="반복문"><a href="#반복문" class="headerlink" title="반복문"></a>반복문</h1><ul>
+</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">Depra3&#039;s Site</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="external nofollow noopener noreferrer" title="Download on GitHub" href="https://github.com/Depra3/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/tags">Tags</a></li><li class="is-active"><a href="#" aria-current="page">while문</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2023-07-15T12:00:00.000Z" title="2023. 7. 15. 오후 9:00:00">2023-07-15</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-10-07T13:19:09.796Z" title="2023. 10. 7. 오후 10:19:09">2023-10-07</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">2 minutes read (About 278 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/07/15/2023/07/JAVA-%EB%B0%98%EB%B3%B5%EB%AC%B8-while%EB%AC%B8/">JAVA-반복문-while문</a></h1><div class="content"><h1>
+<details>
+<summary>목차</summary>
+<div markdown="1">
+
+<ul>
+<li><a href="#%EB%B0%98%EB%B3%B5%EB%AC%B8">반복문</a></li>
+<li><a href="#while-%EB%AC%B8">while 문</a><ul>
+<li><a href="#%EC%82%AC%EC%9A%A9-%ED%98%95%EC%8B%9D-%E2%91%A0">사용 형식 ①</a></li>
+<li><a href="#%EC%82%AC%EC%9A%A9-%ED%98%95%EC%8B%9D-%E2%91%A1">사용 형식 ②</a></li></ul></li></ul></div>
+</details>
+</h1>
+
+
+
+<hr>
+<h1 id="반복문"><a href="#반복문" class="headerlink" title="반복문"></a>반복문</h1><ul>
 <li><strong>프로그램 흐름에서 일정 횟수를 반복하고 싶은 구간에 사용하는 제어문</strong>이다.</li>
 <li><strong>종류 : while 문, do ~ while 문, for 문, foreach 문</strong></li>
 </ul>
+<hr>
 <h1 id="while-문"><a href="#while-문" class="headerlink" title="while 문"></a>while 문</h1><ul>
 <li><strong>while 문은 조건식이 참(true) 인 경우에 동작하는 반복문</strong>이며, <strong>거짓(false)이라면 반복하지 않고 while 문에서 빠져나와 그 다음 코드를 실행</strong>한다.</li>
 </ul>
