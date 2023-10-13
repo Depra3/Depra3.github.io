@@ -34,7 +34,25 @@
       window.addEventListener('hashchange', switchTab, false);
   })();
   </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/rss2.xml" title="Depra3's Learning" type="application/rss+xml">
-</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">Depra3&#039;s Site</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="external nofollow noopener noreferrer" title="Download on GitHub" href="https://github.com/Depra3/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/tags">Tags</a></li><li class="is-active"><a href="#" aria-current="page">논리 연산자</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2023-07-11T12:00:00.000Z" title="2023. 7. 11. 오후 9:00:00">2023-07-11</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-09-01T12:19:35.403Z" title="2023. 9. 1. 오후 9:19:35">2023-09-01</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">3 minutes read (About 495 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/07/11/2023/07/JAVA-%EC%97%B0%EC%82%B0%EC%9E%90-%E2%91%A3%20%EB%85%BC%EB%A6%AC,%20%EC%A1%B0%EA%B1%B4/">JAVA-연산자-④ 논리, 조건</a></h1><div class="content"><h1 id="논리-연산자"><a href="#논리-연산자" class="headerlink" title="논리 연산자"></a>논리 연산자</h1><ul>
+</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">Depra3&#039;s Site</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="external nofollow noopener noreferrer" title="Download on GitHub" href="https://github.com/Depra3/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/tags">Tags</a></li><li class="is-active"><a href="#" aria-current="page">논리 연산자</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2023-07-11T12:00:00.000Z" title="2023. 7. 11. 오후 9:00:00">2023-07-11</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-10-13T14:40:29.167Z" title="2023. 10. 13. 오후 11:40:29">2023-10-13</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">4 minutes read (About 532 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/07/11/2023/07/JAVA-%EC%97%B0%EC%82%B0%EC%9E%90-%E2%91%A3%20%EB%85%BC%EB%A6%AC,%20%EC%A1%B0%EA%B1%B4/">JAVA-연산자-④ 논리, 조건</a></h1><div class="content"><h1>
+<details>
+<summary>목차</summary>
+<div markdown="1">
+
+<ul>
+<li><a href="#%EC%97%B0%EC%82%B0%EC%9E%90">연산자</a></li>
+<li><a href="#%EB%85%BC%EB%A6%AC-%EC%97%B0%EC%82%B0%EC%9E%90">논리 연산자</a><ul>
+<li><a href="#%EC%97%B0%EC%82%B0%EC%8B%9D">연산식</a></li>
+</ul>
+</li>
+<li><a href="#%EC%A1%B0%EA%B1%B4-%EC%97%B0%EC%82%B0%EC%9E%90">조건 연산자</a></li>
+</ul>
+</div>
+</details>
+</h1>
+
+<hr>
+<h1 id="연산자"><a href="#연산자" class="headerlink" title="연산자"></a>연산자</h1><ul>
 <li><p><strong>2개의 boolean 값의 관계를 비교하여 true, false를 판별</strong>한다.</p>
 <ul>
 <li><strong>boolean : <a href="https://depra3.github.io/2023/06/28/2023/06/JAVA-%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%83%80%EC%9E%85/">데이터타입 - boolean(논리형)</a></strong></li>
@@ -42,7 +60,8 @@
 <p>  <img src="/Images/2023/07/JAVA-%EC%97%B0%EC%82%B0%EC%9E%90-%E2%91%A3/Untitled.png"></p>
 </li>
 </ul>
-<h2 id="연산식"><a href="#연산식" class="headerlink" title="연산식"></a>연산식</h2><ul>
+<hr>
+<h1 id="논리-연산자"><a href="#논리-연산자" class="headerlink" title="논리 연산자"></a>논리 연산자</h1><h2 id="연산식"><a href="#연산식" class="headerlink" title="연산식"></a>연산식</h2><ul>
 <li><strong>종류</strong><br>  <img src="/Images/2023/07/JAVA-%EC%97%B0%EC%82%B0%EC%9E%90-%E2%91%A3/Untitled%201.png"></li>
 </ul>
 <h1 id><a href="#" class="headerlink" title></a></h1><ul>

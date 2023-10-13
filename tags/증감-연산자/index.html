@@ -34,7 +34,26 @@
       window.addEventListener('hashchange', switchTab, false);
   })();
   </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/rss2.xml" title="Depra3's Learning" type="application/rss+xml">
-</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">Depra3&#039;s Site</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="external nofollow noopener noreferrer" title="Download on GitHub" href="https://github.com/Depra3/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/tags">Tags</a></li><li class="is-active"><a href="#" aria-current="page">증감 연산자</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2023-07-10T12:00:00.000Z" title="2023. 7. 10. 오후 9:00:00">2023-07-10</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-08-30T11:00:45.682Z" title="2023. 8. 30. 오후 8:00:45">2023-08-30</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">4 minutes read (About 614 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/07/10/2023/07/JAVA-%EC%97%B0%EC%82%B0%EC%9E%90-%E2%91%A2%20%EC%A6%9D%EA%B0%90,%20%EA%B4%80%EA%B3%84(%EB%B9%84%EA%B5%90)/">JAVA-연산자-③ 증감, 관계(비교)</a></h1><div class="content"><h1 id="증감-연산자"><a href="#증감-연산자" class="headerlink" title="증감 연산자"></a>증감 연산자</h1><ul>
+</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">Depra3&#039;s Site</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="external nofollow noopener noreferrer" title="Download on GitHub" href="https://github.com/Depra3/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/tags">Tags</a></li><li class="is-active"><a href="#" aria-current="page">증감 연산자</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2023-07-10T12:00:00.000Z" title="2023. 7. 10. 오후 9:00:00">2023-07-10</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-10-13T14:43:34.138Z" title="2023. 10. 13. 오후 11:43:34">2023-10-13</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">4 minutes read (About 668 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/07/10/2023/07/JAVA-%EC%97%B0%EC%82%B0%EC%9E%90-%E2%91%A2%20%EC%A6%9D%EA%B0%90,%20%EA%B4%80%EA%B3%84(%EB%B9%84%EA%B5%90)/">JAVA-연산자-③ 증감, 관계(비교)</a></h1><div class="content"><h1>
+<details>
+<summary>목차</summary>
+<div markdown="1">
+
+<ul>
+<li><a href="#%EC%A6%9D%EA%B0%90-%EC%97%B0%EC%82%B0%EC%9E%90">증감 연산자</a></li>
+<li><a href="#%EA%B4%80%EA%B3%84-%EC%97%B0%EC%82%B0%EC%9E%90">관계 연산자</a><ul>
+<li><a href="#%ED%81%AC%EA%B8%B0-%EB%B9%84%EA%B5%90">크기 비교</a></li>
+<li><a href="#%EB%8F%99%EB%93%B1-%EB%B9%84%EA%B5%90">동등 비교</a></li>
+</ul>
+</li>
+<li><a href="#%EB%AC%B8%EC%9E%90-%EB%B9%84%EA%B5%90">문자 비교</a></li>
+</ul>
+</div>
+</details>
+</h1>
+
+<hr>
+<h1 id="증감-연산자"><a href="#증감-연산자" class="headerlink" title="증감 연산자"></a>증감 연산자</h1><ul>
 <li><p><strong>변수의 값을 1 증가 또는 감소시키는 연산자</strong></p>
 <table>
 <thead>
@@ -76,7 +95,8 @@
 </li>
 </ul>
 <hr>
-<h1 id="관계-비교-연산자"><a href="#관계-비교-연산자" class="headerlink" title="관계(비교) 연산자"></a>관계(비교) 연산자</h1><ul>
+<h1 id="관계-연산자"><a href="#관계-연산자" class="headerlink" title="관계 연산자"></a>관계 연산자</h1><ul>
+<li><strong>비교 연산자라고도 한다.</strong></li>
 <li><strong>2개의 값의 관계를 비교하여 true, false를 판별한다.</strong></li>
 </ul>
 <h2 id="크기-비교"><a href="#크기-비교" class="headerlink" title="크기 비교"></a><strong>크기 비교</strong></h2><table>
