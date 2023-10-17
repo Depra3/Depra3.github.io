@@ -34,7 +34,22 @@
       window.addEventListener('hashchange', switchTab, false);
   })();
   </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/rss2.xml" title="Depra3's Learning" type="application/rss+xml">
-</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">Depra3&#039;s Site</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="external nofollow noopener noreferrer" title="Download on GitHub" href="https://github.com/Depra3/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2023-07-04T12:00:00.000Z" title="2023. 7. 4. 오후 9:00:00">2023-07-04</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-08-30T10:55:14.413Z" title="2023. 8. 30. 오후 7:55:14">2023-08-30</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">3 minutes read (About 414 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/07/04/2023/07/JAVA-%EC%97%B0%EC%82%B0%EC%9E%90-%E2%91%A0%20%EC%A0%95%EC%9D%98,%20%EC%A2%85%EB%A5%98,%20%EC%9A%B0%EC%84%A0%20%EC%88%9C%EC%9C%84/">JAVA-연산자-① 정의, 종류, 우선 순위</a></h1><div class="content"><h2 id="연산자-정의"><a href="#연산자-정의" class="headerlink" title="연산자 정의"></a>연산자 정의</h2><ul>
+</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">Depra3&#039;s Site</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="external nofollow noopener noreferrer" title="Download on GitHub" href="https://github.com/Depra3/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time datetime="2023-07-04T12:00:00.000Z" title="2023. 7. 4. 오후 9:00:00">2023-07-04</time></span><span class="level-item">Updated&nbsp;<time datetime="2023-10-17T10:08:07.426Z" title="2023. 10. 17. 오후 7:08:07">2023-10-17</time></span><span class="level-item"><a class="link-muted" href="/categories/JAVA/">JAVA</a></span><span class="level-item">3 minutes read (About 452 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/07/04/2023/07/JAVA-%EC%97%B0%EC%82%B0%EC%9E%90-%E2%91%A0%20%EC%A0%95%EC%9D%98,%20%EC%A2%85%EB%A5%98,%20%EC%9A%B0%EC%84%A0%20%EC%88%9C%EC%9C%84/">JAVA-연산자-① 정의, 종류, 우선 순위</a></h1><div class="content"><h1>
+<details>
+<summary>목차</summary>
+<div markdown="1">
+
+<ul>
+<li><a href="#%EC%97%B0%EC%82%B0%EC%9E%90-%EC%A0%95%EC%9D%98">연산자 정의</a></li>
+<li><a href="#%EC%97%B0%EC%82%B0%EC%9E%90%EC%9D%98-%EC%A2%85%EB%A5%98">연산자의 종류</a></li>
+<li><a href="#%EC%97%B0%EC%82%B0%EC%9E%90-%EC%9A%B0%EC%84%A0-%EC%88%9C%EC%9C%84">연산자 우선 순위</a></li>
+</ul>
+</div>
+</details>
+</h1>
+
+<hr>
+<h2 id="연산자-정의"><a href="#연산자-정의" class="headerlink" title="연산자 정의"></a>연산자 정의</h2><ul>
 <li><strong>연산</strong><ul>
 <li>프로그램에서 데이터를 처리하여 결과를 산출하는 것</li>
 </ul>
